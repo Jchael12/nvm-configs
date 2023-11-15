@@ -13,13 +13,13 @@
 ---
 ---@field huge       number
 ---
----An integer with the maximum value for an integer.
+---Miss locale <math.maxinteger>
 ---
 ---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-math.maxinteger)
 ---
 ---@field maxinteger integer
 ---
----An integer with the minimum value for an integer.
+---Miss locale <math.mininteger>
 ---
 ---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-math.mininteger)
 ---
@@ -343,7 +343,7 @@ function math.tanh(x) end
 
 ---@version >5.3
 ---
----If the value `x` is convertible to an integer, returns that integer.
+---Miss locale <math.tointeger>
 ---
 ---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-math.tointeger)
 ---
@@ -353,7 +353,7 @@ function math.tanh(x) end
 function math.tointeger(x) end
 
 ---
----Returns `"integer"` if `x` is an integer, `"float"` if it is a float, or `nil` if `x` is not a number.
+---Miss locale <math.type>
 ---
 ---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-math.type)
 ---
@@ -366,7 +366,7 @@ function math.tointeger(x) end
 function math.type(x) end
 
 ---
----Returns `true` if and only if `m` is below `n` when they are compared as unsigned integers.
+---Miss locale <math.ult>
 ---
 ---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-math.ult)
 ---

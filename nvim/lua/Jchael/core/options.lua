@@ -1,43 +1,40 @@
-local opt =  vim.opt -- for conciseness
+local opt = vim.opt -- for conciseness
 
--- line numbers
-opt.relativenumber = true
-opt.number = true
+-- line numbers 
+opt.relativenumber = true -- show relative number
+opt.number = true -- shows absolute line number on cursor line (when relative is on)
 
--- tabs & indentation 
-opt.tabstop = 2
-opt.shiftwidth = 2
-opt.expandtab = true
-opt.autoindent = true
-opt.smartindent = true
-opt.breakindent = true
+-- tab & indentation
+opt.tabstop = 4 -- spaces for tabs (prettier default)
+opt.shiftwidth = 2 -- space for indent
+opt.expandtab = true -- expand tab to spaces
+opt.autoindent = true -- copy indent from line when starting new one 
+
 -- line wrapping 
-opt.wrap = true
+opt.wrap = true -- disable line wrapping
 
 -- search settings 
-opt.ignorecase = true
-opt.smartcase = true
+opt.ignorecase = true -- ignore case when searching 
+opt.smartcase = true -- if you include mixed case in search, assumes you want case-sensitive 
 
 -- cursor line 
-opt.cursorline = true
+opt.cursorline = true -- highlights the current line 
 
--- appearance 
+-- apperance 
+
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
 
 -- backspace 
-
 opt.backspace = "indent,eol,start"
 
--- clipboard 
+-- clipboard
+opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 
-opt.clipboard:append("unnamedplus")
-
--- split windows 
+-- split window 
 opt.splitright = true
 opt.splitbelow = true
 
-opt.iskeyword:append("-")
-
-
+-- turn off swapfile 
+opt.swapfile = false

@@ -164,12 +164,68 @@ function os.rename(oldname, newname) end
 ---@return string localecategory
 function os.setlocale(locale, category) end
 
+---@class osdateparam
+---
+---four digits
+---
+---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-osdate.year)
+---
+---@field year  integer|string
+---
+---1-12
+---
+---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-osdate.month)
+---
+---@field month integer|string
+---
+---1-31
+---
+---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-osdate.day)
+---
+---@field day   integer|string
+---
+---0-23
+---
+---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-osdate.hour)
+---
+---@field hour  (integer|string)?
+---
+---0-59
+---
+---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-osdate.min)
+---
+---@field min   (integer|string)?
+---
+---0-61
+---
+---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-osdate.sec)
+---
+---@field sec   (integer|string)?
+---
+---weekday, 1–7, Sunday is 1
+---
+---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-osdate.wday)
+---
+---@field wday  (integer|string)?
+---
+---day of the year, 1–366
+---
+---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-osdate.yday)
+---
+---@field yday  (integer|string)?
+---
+---daylight saving flag, a boolean
+---
+---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-osdate.isdst)
+---
+---@field isdst boolean?
+
 ---
 ---Returns the current time when called without arguments, or a time representing the local date and time specified by the given table.
 ---
 ---[View documents](http://www.lua.org/manual/5.4/manual.html#pdf-os.time)
 ---
----@param date? osdate
+---@param date? osdateparam
 ---@return integer
 ---@nodiscard
 function os.time(date) end

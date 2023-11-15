@@ -1,352 +1,110 @@
-[START][2023-05-21 16:35:44] LSP logging initiated
-[WARN][2023-05-21 16:35:44] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 16:36:17] LSP logging initiated
-[WARN][2023-05-21 16:36:17] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:36:17] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:36:20] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 16:39:57] LSP logging initiated
-[WARN][2023-05-21 16:39:57] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:39:57] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:40:00] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 16:43:19] LSP logging initiated
-[WARN][2023-05-21 16:43:19] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:43:19] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:43:22] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 16:43:46] LSP logging initiated
-[WARN][2023-05-21 16:43:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:43:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 16:44:45] LSP logging initiated
-[WARN][2023-05-21 16:44:45] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:44:45] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:44:49] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 16:51:42] LSP logging initiated
-[WARN][2023-05-21 16:51:42] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:51:42] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 16:51:46] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 17:30:32] LSP logging initiated
-[WARN][2023-05-21 17:30:32] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 17:30:32] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 17:30:35] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 17:36:56] LSP logging initiated
-[WARN][2023-05-21 17:36:56] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 17:36:56] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 17:36:57] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 22:53:42] LSP logging initiated
-[ERROR][2023-05-21 22:53:42] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:191: in function <script\\proto\\proto.lua:166>\r\n"
-[START][2023-05-21 23:05:07] LSP logging initiated
-[WARN][2023-05-21 23:05:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 23:05:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 23:05:11] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-21 23:06:04] LSP logging initiated
-[WARN][2023-05-21 23:06:04] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 23:06:04] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-21 23:06:08] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-22 21:22:28] LSP logging initiated
-[WARN][2023-05-22 21:22:28] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-22 21:22:28] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-22 21:22:28] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-22 21:27:05] LSP logging initiated
-[WARN][2023-05-22 21:27:05] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-22 21:27:05] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-22 21:27:09] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-22 22:00:35] LSP logging initiated
-[WARN][2023-05-22 22:00:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-22 22:00:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-22 22:00:38] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-23 13:50:13] LSP logging initiated
-[WARN][2023-05-23 13:50:13] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-23 13:50:13] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-23 13:50:18] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-23 22:41:40] LSP logging initiated
-[WARN][2023-05-23 22:41:40] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-23 22:41:40] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-23 22:41:41] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-24 10:43:24] LSP logging initiated
-[WARN][2023-05-24 10:43:24] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-24 10:43:24] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-24 10:43:24] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-24 11:04:53] LSP logging initiated
-[WARN][2023-05-24 11:04:53] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-24 11:04:53] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-24 11:04:54] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-24 19:16:46] LSP logging initiated
-[WARN][2023-05-24 19:16:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-24 19:16:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-24 19:16:47] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-24 20:44:43] LSP logging initiated
-[WARN][2023-05-24 20:44:43] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-24 20:44:43] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-24 20:44:43] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-25 00:52:00] LSP logging initiated
-[ERROR][2023-05-25 00:52:00] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:200: in function <script\\proto\\proto.lua:175>\r\n"
-[START][2023-05-25 01:08:58] LSP logging initiated
-[WARN][2023-05-25 01:08:58] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:08:58] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:09:03] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-25 01:10:05] LSP logging initiated
-[WARN][2023-05-25 01:10:05] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:10:05] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:10:10] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-25 01:11:58] LSP logging initiated
-[WARN][2023-05-25 01:11:58] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:11:58] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:12:03] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-25 01:15:02] LSP logging initiated
-[ERROR][2023-05-25 01:15:02] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:200: in function <script\\proto\\proto.lua:175>\r\n"
-[START][2023-05-25 01:18:36] LSP logging initiated
-[WARN][2023-05-25 01:18:36] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:18:36] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:18:41] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-25 01:33:02] LSP logging initiated
-[WARN][2023-05-25 01:33:02] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:33:02] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:33:07] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-25 01:34:35] LSP logging initiated
-[WARN][2023-05-25 01:34:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:34:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:34:40] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-25 01:48:07] LSP logging initiated
-[WARN][2023-05-25 01:48:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:48:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-25 01:48:12] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-25 23:58:08] LSP logging initiated
-[ERROR][2023-05-25 23:58:08] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:200: in function <script\\proto\\proto.lua:175>\r\n"
-[START][2023-05-26 23:56:10] LSP logging initiated
-[ERROR][2023-05-26 23:56:10] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Dev\\Flutter\\bin\\dart.bat"	"stderr"	"Unhandled exception:\r\nFormatException: Unexpected extension byte (at offset 272)\r\n#0      _Utf8Decoder.convertSingle (dart:convert-patch/convert_patch.dart:1747:7)\r\n#1      Utf8Decoder.convert (dart:convert/utf.dart:351:42)\r\n#2      Utf8Codec.decode (dart:convert/utf.dart:63:20)\r\n#3      LspPacketTransformer.bind.<anonymous closure>.<anonymous closure> (package:analysis_server/src/lsp/lsp_packet_transformer.dart:58:37)\r\n#4      _rootRunUnary (dart:async/zone.dart:1407:47)\r\n#5      _CustomZone.runUnary (dart:async/zone.dart:1308:19)\r\n#6      _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)\r\n#7      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)\r\n#8      _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)\r\n#9      _ForwardingStreamSubscription._add (dart:async/stream_pipe.dart:123:11)\r\n#10     _ExpandStream._handleData (dart:async/stream_pipe.dart:233:14)\r\n#11     _ForwardingStreamSubscription._handleData (dart:async/stream_pipe.dart:153:13)\r\n#12     _rootRunUnary (dart:async/zone.dart:1407:47)\r\n#13     _CustomZone.runUnary (dart:async/zone.dart:1308:19)\r\n#14     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)\r\n#15     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)\r\n#16     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)\r\n#17     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:776:19)\r\n#18     _StreamController._add (dart:async/stream_controller.dart:650:7)\r\n#19     _StreamController.add (dart:async/stream_controller.dart:598:5)\r\n#20     _Socket._onData (dart:io-patch/socket_patch.dart:2368:41)\r\n#21     _rootRunUnary (dart:async/zone.dart:1415:13)\r\n#22     _CustomZone.runUnary (dart:async/zone.dart:1308:19)\r\n#23     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217:7)\r\n#24     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)\r\n#25     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)\r\n#26     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:776:19)\r\n#27     _StreamController._add (dart:async/stream_controller.dart:650:7)\r\n#28     _StreamController.add (dart:async/stream_controller.dart:598:5)\r\n#29     new _RawSocket.<anonymous closure> (dart:io-patch/socket_patch.dart:1886:33)\r\n#30     _NativeSocket.issueReadEvent.issue (dart:io-patch/socket_patch.dart:1343:14)\r\n#31     _microtaskLoop (dart:async/schedule_microtask.dart:40:21)\r\n#32     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)\r\n#33     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:123:13)\r\n#34     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:190:5)\r\n"
-[START][2023-05-28 00:24:08] LSP logging initiated
-[WARN][2023-05-28 00:24:08] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 00:24:08] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 00:24:09] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 00:45:35] LSP logging initiated
-[WARN][2023-05-28 00:45:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 00:45:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 00:45:36] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 00:55:16] LSP logging initiated
-[WARN][2023-05-28 00:55:16] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 00:55:16] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 00:55:16] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:10:45] LSP logging initiated
-[WARN][2023-05-28 01:10:45] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:10:45] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:10:45] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:13:18] LSP logging initiated
-[WARN][2023-05-28 01:13:18] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:13:18] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:13:19] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:15:11] LSP logging initiated
-[WARN][2023-05-28 01:15:11] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:15:11] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:15:11] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:18:07] LSP logging initiated
-[WARN][2023-05-28 01:18:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:18:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:18:07] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:20:07] LSP logging initiated
-[WARN][2023-05-28 01:20:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:20:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:20:08] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:26:32] LSP logging initiated
-[WARN][2023-05-28 01:26:32] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:26:32] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:26:33] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:29:32] LSP logging initiated
-[WARN][2023-05-28 01:29:32] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:29:32] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:29:32] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:31:29] LSP logging initiated
-[WARN][2023-05-28 01:31:29] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:31:29] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:31:30] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:31:53] LSP logging initiated
-[WARN][2023-05-28 01:31:53] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:31:53] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:31:54] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:37:26] LSP logging initiated
-[WARN][2023-05-28 01:37:26] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:37:26] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:37:26] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:39:52] LSP logging initiated
-[WARN][2023-05-28 01:39:52] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:39:52] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:39:52] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 01:40:43] LSP logging initiated
-[WARN][2023-05-28 01:40:43] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:40:43] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 01:40:43] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 13:45:38] LSP logging initiated
-[WARN][2023-05-28 13:45:38] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 13:45:38] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 13:45:39] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-28 13:51:46] LSP logging initiated
-[WARN][2023-05-28 13:51:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 13:51:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-28 13:51:47] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-29 01:10:59] LSP logging initiated
-[WARN][2023-05-29 01:10:59] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 01:10:59] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 01:11:00] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-29 01:14:34] LSP logging initiated
-[WARN][2023-05-29 01:14:34] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 01:14:34] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 01:14:35] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-29 11:39:25] LSP logging initiated
-[WARN][2023-05-29 11:39:25] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 11:39:25] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 11:39:26] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-29 11:43:46] LSP logging initiated
-[WARN][2023-05-29 11:43:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 11:43:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 11:43:46] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-29 12:39:30] LSP logging initiated
-[WARN][2023-05-29 12:39:30] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 12:39:30] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 12:39:30] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-29 21:44:43] LSP logging initiated
-[ERROR][2023-05-29 21:44:43] ...lsp/handlers.lua:535	"Unhandled exception: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\app\\page.module.css'\nError: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\app\\page.module.css'"
-[WARN][2023-05-29 21:48:26] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 21:48:26] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[ERROR][2023-05-29 23:08:18] ...lsp/handlers.lua:535	"Unhandled exception: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\.next\\static\\css\\app\\layout.css'\nError: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\.next\\static\\css\\app\\layout.css'"
-[ERROR][2023-05-29 23:25:54] ...lsp/handlers.lua:535	"Unhandled exception: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\.next\\static\\css\\app\\layout.css'\nError: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\.next\\static\\css\\app\\layout.css'"
-[START][2023-05-29 23:29:14] LSP logging initiated
-[WARN][2023-05-29 23:29:14] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 23:29:14] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-29 23:29:46] LSP logging initiated
-[WARN][2023-05-29 23:29:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-29 23:29:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 01:59:49] LSP logging initiated
-[WARN][2023-05-30 01:59:49] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 01:59:49] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[ERROR][2023-05-30 02:00:09] ...lsp/handlers.lua:535	"Unhandled exception: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\.next\\static\\css\\app\\layout.css'\nError: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\.next\\static\\css\\app\\layout.css'"
-[START][2023-05-30 02:08:04] LSP logging initiated
-[WARN][2023-05-30 02:08:04] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 02:08:04] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 02:08:05] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 15:34:07] LSP logging initiated
-[WARN][2023-05-30 15:34:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 15:34:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[ERROR][2023-05-30 15:34:48] ...lsp/handlers.lua:535	"Unhandled exception: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\.next\\static\\css\\app\\layout.css'\nError: ENOENT: no such file or directory, open 'c:\\code\\next13quiz\\.next\\static\\css\\app\\layout.css'"
-[START][2023-05-30 16:32:15] LSP logging initiated
-[WARN][2023-05-30 16:32:15] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 16:32:15] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 16:42:26] LSP logging initiated
-[WARN][2023-05-30 16:42:26] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 16:42:26] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 16:42:27] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 17:14:59] LSP logging initiated
-[WARN][2023-05-30 17:14:59] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 17:14:59] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 17:14:59] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 17:17:15] LSP logging initiated
-[WARN][2023-05-30 17:17:15] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 17:17:15] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 17:17:20] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 17:28:10] LSP logging initiated
-[WARN][2023-05-30 17:28:10] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 17:28:10] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 17:28:15] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 18:18:29] LSP logging initiated
-[WARN][2023-05-30 18:18:29] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 18:18:29] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 18:18:34] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 18:54:07] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 19:57:00] LSP logging initiated
-[WARN][2023-05-30 19:57:00] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 19:57:00] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 19:57:04] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 21:21:25] LSP logging initiated
-[WARN][2023-05-30 21:21:25] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 21:24:39] LSP logging initiated
-[WARN][2023-05-30 21:24:39] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 21:29:21] LSP logging initiated
-[WARN][2023-05-30 21:29:21] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 21:35:10] LSP logging initiated
-[WARN][2023-05-30 21:35:10] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 21:40:15] LSP logging initiated
-[WARN][2023-05-30 21:40:15] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 21:47:29] LSP logging initiated
-[WARN][2023-05-30 21:47:29] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 21:53:56] LSP logging initiated
-[WARN][2023-05-30 21:53:56] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 21:56:54] LSP logging initiated
-[WARN][2023-05-30 21:56:54] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 22:10:51] LSP logging initiated
-[WARN][2023-05-30 22:10:51] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 22:20:11] LSP logging initiated
-[WARN][2023-05-30 22:20:11] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 22:24:46] LSP logging initiated
-[WARN][2023-05-30 22:24:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 22:24:46] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 22:24:50] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 23:54:18] LSP logging initiated
-[WARN][2023-05-30 23:54:18] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 23:54:18] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 23:54:23] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-30 23:57:06] LSP logging initiated
-[WARN][2023-05-30 23:57:06] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 23:57:06] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-30 23:57:11] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-31 01:13:17] LSP logging initiated
-[WARN][2023-05-31 01:13:17] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 01:13:17] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 01:13:21] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 01:13:24] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-31 01:25:05] LSP logging initiated
-[WARN][2023-05-31 01:25:05] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 01:25:05] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 01:25:05] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-31 13:36:09] LSP logging initiated
-[WARN][2023-05-31 13:36:09] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 13:36:09] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 13:36:09] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-31 14:13:29] LSP logging initiated
-[WARN][2023-05-31 14:13:29] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 14:13:29] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 14:13:30] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-31 14:14:01] LSP logging initiated
-[WARN][2023-05-31 14:14:01] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 14:14:01] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 14:14:01] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-31 14:14:42] LSP logging initiated
-[WARN][2023-05-31 14:14:42] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 14:14:42] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 14:14:43] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-31 14:18:17] LSP logging initiated
-[WARN][2023-05-31 14:18:17] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 14:18:17] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 14:18:18] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-31 18:45:47] LSP logging initiated
-[WARN][2023-05-31 18:45:47] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 18:45:47] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 18:45:48] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-05-31 22:12:35] LSP logging initiated
-[WARN][2023-05-31 22:12:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 22:12:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-05-31 22:12:36] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-06-01 13:33:08] LSP logging initiated
-[WARN][2023-06-01 13:33:08] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 13:33:08] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 13:33:24] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-06-01 16:28:53] LSP logging initiated
-[WARN][2023-06-01 16:28:53] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 16:28:53] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 16:28:54] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-06-01 16:44:25] LSP logging initiated
-[WARN][2023-06-01 16:44:25] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 16:44:25] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 16:44:26] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-06-01 19:14:52] LSP logging initiated
-[WARN][2023-06-01 19:14:52] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 19:14:52] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 19:14:53] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-06-01 19:16:15] LSP logging initiated
-[WARN][2023-06-01 19:16:15] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 19:16:15] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 19:16:15] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-06-01 19:46:31] LSP logging initiated
-[WARN][2023-06-01 19:46:31] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 19:46:31] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 19:46:31] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[START][2023-06-01 22:27:51] LSP logging initiated
-[WARN][2023-06-01 22:27:51] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 22:27:51] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
-[WARN][2023-06-01 22:27:52] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-01 14:59:57] LSP logging initiated
+[ERROR][2023-11-01 14:59:57] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:200: in function <script\\proto\\proto.lua:175>\r\n"
+[START][2023-11-01 15:02:07] LSP logging initiated
+[ERROR][2023-11-01 15:02:07] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:200: in function <script\\proto\\proto.lua:175>\r\n"
+[START][2023-11-01 15:18:03] LSP logging initiated
+[ERROR][2023-11-01 15:18:03] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:200: in function <script\\proto\\proto.lua:175>\r\n"
+[START][2023-11-01 17:44:51] LSP logging initiated
+[WARN][2023-11-01 17:44:51] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-01 17:44:51] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-01 17:44:55] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-01 18:13:08] LSP logging initiated
+[WARN][2023-11-01 18:13:08] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-01 18:13:08] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-01 18:13:11] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-03 11:39:21] LSP logging initiated
+[WARN][2023-11-03 11:39:21] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-03 11:39:21] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-03 11:39:29] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-05 12:26:34] LSP logging initiated
+[WARN][2023-11-05 12:26:34] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 12:26:34] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 12:26:43] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[ERROR][2023-11-05 13:00:04] ...lsp/handlers.lua:535	"Unhandled exception: ENOENT: no such file or directory, open 'c:\\code\\next-app\\.next\\static\\css\\app\\layout.css'\nError: ENOENT: no such file or directory, open 'c:\\code\\next-app\\.next\\static\\css\\app\\layout.css'"
+[ERROR][2023-11-05 13:02:15] ...lsp/handlers.lua:535	"Unhandled exception: ENOENT: no such file or directory, open 'c:\\code\\next-app\\.next\\static\\css\\cd99350deb320765.css'\nError: ENOENT: no such file or directory, open 'c:\\code\\next-app\\.next\\static\\css\\cd99350deb320765.css'"
+[ERROR][2023-11-05 13:05:37] ...lsp/handlers.lua:535	"Unhandled exception: ENOENT: no such file or directory, open 'c:\\code\\next-app\\.next\\static\\css\\cd99350deb320765.css'\nError: ENOENT: no such file or directory, open 'c:\\code\\next-app\\.next\\static\\css\\cd99350deb320765.css'"
+[WARN][2023-11-05 13:21:00] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[ERROR][2023-11-05 13:21:00] ...lsp/handlers.lua:535	"Tailwind CSS: Can't resolve 'daisyui' in 'c:\\code\\next-app'\nError: Can't resolve 'daisyui' in 'c:\\code\\next-app'\n    at c (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:131:7129)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:132:713\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:15:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:27:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:7650\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:15:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401"
+[ERROR][2023-11-05 13:23:20] ...lsp/handlers.lua:535	"Unhandled exception: ENOENT: no such file or directory, open 'c:\\code\\next-app\\.next\\static\\css\\app\\layout.css'\nError: ENOENT: no such file or directory, open 'c:\\code\\next-app\\.next\\static\\css\\app\\layout.css'"
+[WARN][2023-11-05 13:24:04] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[ERROR][2023-11-05 13:24:04] ...lsp/handlers.lua:535	"Tailwind CSS: Can't resolve 'daisyui' in 'c:\\code\\next-app'\nError: Can't resolve 'daisyui' in 'c:\\code\\next-app'\n    at c (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:131:7129)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:132:713\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:15:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:27:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:7650\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:15:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401"
+[WARN][2023-11-05 13:24:05] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[ERROR][2023-11-05 13:24:05] ...lsp/handlers.lua:535	"Tailwind CSS: Can't resolve 'daisyui' in 'c:\\code\\next-app'\nError: Can't resolve 'daisyui' in 'c:\\code\\next-app'\n    at c (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:131:7129)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:132:713\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:15:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:27:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:7650\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:15:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401"
+[WARN][2023-11-05 13:24:36] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[ERROR][2023-11-05 13:24:36] ...lsp/handlers.lua:535	"Tailwind CSS: Can't resolve 'daisyui' in 'c:\\code\\next-app'\nError: Can't resolve 'daisyui' in 'c:\\code\\next-app'\n    at c (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:131:7129)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:132:713\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:15:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:27:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:7650\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401\n    at eval (eval at create (C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:1:1), <anonymous>:15:1)\n    at C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\packages\\tailwindcss-language-server\\node_modules\\@tailwindcss\\language-server\\bin\\tailwindcss-language-server:135:401"
+[WARN][2023-11-05 13:25:13] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 13:28:24] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 13:28:37] ...lsp/handlers.lua:137	"The language server tailwindcss triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-05 13:51:33] LSP logging initiated
+[WARN][2023-11-05 13:51:33] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 13:51:33] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 14:34:01] ...lsp/handlers.lua:137	"The language server prismals triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-05 15:28:23] LSP logging initiated
+[WARN][2023-11-05 15:28:23] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 15:28:23] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-05 15:56:27] LSP logging initiated
+[WARN][2023-11-05 15:56:27] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 15:56:27] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-05 19:17:49] LSP logging initiated
+[WARN][2023-11-05 19:17:49] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 19:17:49] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-05 19:19:03] LSP logging initiated
+[WARN][2023-11-05 19:19:03] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 19:19:03] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-05 19:19:58] ...lsp/handlers.lua:137	"The language server html triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[ERROR][2023-11-05 22:42:52] ...lsp/handlers.lua:535	'Tailwind CSS: Unexpected token, expected "," (12:12)\nSyntaxError: Unexpected token, expected "," (12:12)\n    at unexpected (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\traverser\\util.js:99:15)\n    at expect (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\traverser\\util.js:86:5)\n    at parseObj (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\traverser\\expression.js:759:20)\n    at parseExprAtom (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\traverser\\expression.js:553:7)\n    at parseExprSubscripts (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\traverser\\expression.js:276:20)\n    at parseMaybeUnary (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\traverser\\expression.js:257:20)\n    at parseExprOps (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\traverser\\expression.js:185:20)\n    at parseMaybeConditional (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\traverser\\expression.js:157:20)\n    at baseParseMaybeAssign (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\traverser\\expression.js:142:20)\n    at tsParseMaybeAssignWithoutJSX (c:\\code\\prison-info-system\\client\\node_modules\\sucrase\\dist\\parser\\plugins\\typescript.js:1580:45)'
+[START][2023-11-06 09:21:35] LSP logging initiated
+[WARN][2023-11-06 09:21:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-06 09:21:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-06 14:12:44] LSP logging initiated
+[WARN][2023-11-06 14:12:44] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-06 14:12:44] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-06 22:02:50] LSP logging initiated
+[WARN][2023-11-06 22:02:50] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-06 22:02:50] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-07 13:18:00] LSP logging initiated
+[WARN][2023-11-07 13:18:00] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-07 13:18:00] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-08 08:17:30] LSP logging initiated
+[WARN][2023-11-08 08:17:30] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-08 08:17:30] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-08 13:02:10] LSP logging initiated
+[WARN][2023-11-08 13:02:10] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-08 13:02:10] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-09 18:36:35] LSP logging initiated
+[WARN][2023-11-09 18:36:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-09 18:36:35] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-09 20:49:47] LSP logging initiated
+[WARN][2023-11-09 20:49:47] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-09 20:49:47] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-10 13:09:20] LSP logging initiated
+[ERROR][2023-11-10 13:09:20] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:203: in function <script\\proto\\proto.lua:178>\r\n"
+[ERROR][2023-11-10 13:09:47] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:203: in function <script\\proto\\proto.lua:178>\r\n"
+[START][2023-11-10 13:10:54] LSP logging initiated
+[ERROR][2023-11-10 13:10:54] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:203: in function <script\\proto\\proto.lua:178>\r\n"
+[START][2023-11-10 13:12:01] LSP logging initiated
+[ERROR][2023-11-10 13:12:01] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim-data\\mason\\bin\\lua-language-server.CMD"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:294>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:203: in function <script\\proto\\proto.lua:178>\r\n"
+[START][2023-11-10 19:58:14] LSP logging initiated
+[WARN][2023-11-10 19:58:14] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-10 19:58:14] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-10 23:57:45] LSP logging initiated
+[WARN][2023-11-10 23:57:45] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-10 23:57:45] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-11 13:04:04] LSP logging initiated
+[WARN][2023-11-11 13:04:04] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-11 13:04:04] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-11 13:29:07] LSP logging initiated
+[WARN][2023-11-11 13:29:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-11 13:29:07] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-11 13:32:16] LSP logging initiated
+[WARN][2023-11-11 13:32:16] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-11 13:32:16] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-11 13:34:51] LSP logging initiated
+[WARN][2023-11-11 13:34:51] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-11 13:34:51] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-13 14:34:41] LSP logging initiated
+[WARN][2023-11-13 14:34:41] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-13 14:34:41] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-11-13 18:14:26] LSP logging initiated
+[WARN][2023-11-13 18:14:26] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[WARN][2023-11-13 18:14:26] ...lsp/handlers.lua:137	"The language server emmet_ls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"

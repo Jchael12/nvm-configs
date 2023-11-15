@@ -712,11 +712,11 @@ m.register 'completionItem/resolve' {
         --await.setPriority(1000)
         local state = files.getState(uri)
         if not state then
-            return nil
+            return item
         end
         local resolved = core.resolve(id)
         if not resolved then
-            return nil
+            return item
         end
         item.detail = resolved.detail or item.detail
         item.documentation = resolved.description and {
@@ -772,8 +772,8 @@ m.register 'textDocument/signatureHelp' {
             for j, param in ipairs(result.params) do
                 parameters[j] = {
                     label = {
-                        param.label[1],
-                        param.label[2],
+                        converter.len(result.label, 1, param.label[1]),
+                        converter.len(result.label, 1, param.label[2]),
                     }
                 }
             end
@@ -904,7 +904,7 @@ m.register 'textDocument/codeLens' {
             resolveProvider = true,
         }
     },
-    abortByFileUpdate = true,
+    --abortByFileUpdate = true,
     ---@async
     function (params)
         local uri = files.getRealUri(params.textDocument.uri)
@@ -982,6 +982,11 @@ m.register 'workspace/executeCommand' {
         elseif command == 'lua.exportDocument' then
             local core = require 'core.command.exportDocument'
             core(params.arguments)
+        elseif command == 'lua.reloadFFIMeta' then
+            local core = require 'core.command.reloadFFIMeta'
+            for _, scp in ipairs(workspace.folders) do
+                core(scp.uri)
+            end
         end
     end
 }
@@ -1411,8 +1416,8 @@ m.register 'textDocument/inlayHint' {
                 },
                 position     = converter.packPosition(state, res.offset),
                 kind         = res.kind,
-                paddingLeft  = true,
-                paddingRight = true,
+                paddingLeft  = res.kind == 1,
+                paddingRight = res.kind == 2,
             }
         end
         return hintResults
