@@ -1,0 +1,1 @@
+{"metrics":{"start_time":1700664473967,"completion_time":1700664488445},"name":"shfmt","schema_version":"1.1","primary_source":{"id":"pkg:github\/mvdan\/sh@v3.7.0","type":"registry+v1"},"secondary_sources":[],"links":{"bin":{"shfmt.cmd":"shfmt_v3.7.0_windows_amd64.exe"},"share":{},"opt":{}}}

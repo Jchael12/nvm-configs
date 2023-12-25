@@ -1,270 +1,1392 @@
-ERR 2023-11-03T22:02:11.506 nvim.14276.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+ERR 2023-11-23T01:02:58.202 nvim.12568.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T16:30:07.207 nvim.15196.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-11-23T01:02:58.212 nvim.12568.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:13:11.073 nvim.18368.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6a79622c0
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'nvim_command'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:620: in function '_relayout'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:384: in function 'update_layout'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:262: in function <...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:261>
+	...
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/view/init.lua:140: in function 'display'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:215: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function <.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:134>
+	[C]: in function 'pcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/init.lua:120: in function 'fn'
+	vim/_editor.lua:477: in function 'cb'
+	vim/_editor.lua:263: in function <vim/_editor.lua:262>
+ERR 2023-11-23T01:02:58.221 nvim.12568.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:13:12.208 nvim.18368.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6a79622c0
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'nvim_command'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:512: in function '_open_window'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:554: in function 'mount'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:243: in function 'mount'
+	...
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/view/init.lua:140: in function 'display'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:215: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function <.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:134>
+	[C]: in function 'pcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/init.lua:120: in function 'fn'
+	vim/_editor.lua:477: in function 'cb'
+	vim/_editor.lua:263: in function <vim/_editor.lua:262>
+ERR 2023-11-23T01:02:58.277 nvim.12568.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:25:22.021 nvim.5032.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6a79622c0
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'nvim_command'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:620: in function '_relayout'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:384: in function 'update_layout'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:262: in function 'update_layout'
+	...
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/view/init.lua:140: in function 'display'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:215: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function <.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:134>
+	[C]: in function 'pcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/init.lua:120: in function 'fn'
+	vim/_editor.lua:477: in function 'cb'
+	vim/_editor.lua:263: in function <vim/_editor.lua:262>
+ERR 2023-11-23T01:02:58.316 nvim.12568.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:25:23.489 nvim.5032.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-11-23T01:02:58.376 nvim.12568.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:25:24.119 nvim.5032.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-11-23T01:02:58.404 nvim.12568.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:34:47.179 nvim.17508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-11-23T01:02:58.554 nvim.12568.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:34:49.186 nvim.17508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-11-23T01:02:58.560 nvim.12568.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:34:49.625 nvim.17508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-03T16:00:42.541 nvim.13428.0 decor_provider_invoke:47: error in provider gitsigns:win: Error executing lua: ...ocal/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/hunks.lua:172: Invalid hunk with untracked=true hunk="@@ -1,2 +1,2 @@"
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:39:31.016 nvim.4784.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'assert'
+	...ocal/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/hunks.lua:172: in function 'calc_signs'
+	...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:53: in function 'apply_win_signs0'
+	...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:72: in function 'apply_win_signs'
+	...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:559: in function <...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:552>
+ERR 2023-12-03T16:00:42.567 nvim.13428.0 decor_provider_invoke:47: error in provider gitsigns:win: Error executing lua: ...ocal/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/hunks.lua:172: Invalid hunk with untracked=true hunk="@@ -1,2 +1,2 @@"
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-09T18:39:32.189 nvim.4784.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'assert'
+	...ocal/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/hunks.lua:172: in function 'calc_signs'
+	...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:53: in function 'apply_win_signs0'
+	...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:72: in function 'apply_win_signs'
+	...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:559: in function <...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:552>
+ERR 2023-12-03T16:00:42.606 nvim.13428.0 decor_provider_invoke:47: error in provider gitsigns:win: Error executing lua: ...ocal/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/hunks.lua:172: Invalid hunk with untracked=true hunk="@@ -1,2 +1,2 @@"
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-10T13:20:48.127 nvim.15468.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'assert'
+	...ocal/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/hunks.lua:172: in function 'calc_signs'
+	...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:53: in function 'apply_win_signs0'
+	...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:72: in function 'apply_win_signs'
+	...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:559: in function <...al/nvim-data/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:552>
+ERR 2023-12-14T20:01:54.466 nvim.3428.0 chan_close_with_error:653: RPC: ch 1: stream write failed. RPC canceled; closing channel
+ERR 2023-12-19T11:23:07.310 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-10T13:20:58.746 nvim.15468.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:07.372 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-10T23:45:59.393 nvim.5732.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:07.373 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-10T23:45:59.962 nvim.5732.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:07.373 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-10T23:46:00.671 nvim.5732.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:07.406 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-12T15:10:14.046 nvim.11360.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6042f22c0
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'nvim_command'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:624: in function '_relayout'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:388: in function 'update_layout'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:157: in function 'init'
+	...
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/view/init.lua:140: in function 'display'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:215: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function <.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:134>
+	[C]: in function 'pcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/init.lua:120: in function 'fn'
+	vim/_editor.lua:477: in function 'cb'
+	vim/_editor.lua:263: in function <vim/_editor.lua:262>
+ERR 2023-12-19T11:23:07.436 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-12T15:22:31.646 nvim.2520.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6042f22c0
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'nvim_command'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:624: in function '_relayout'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:388: in function 'update_layout'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:262: in function 'update_layout'
+	...
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/view/init.lua:140: in function 'display'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:215: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function <.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:134>
+	[C]: in function 'pcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/init.lua:120: in function 'fn'
+	vim/_editor.lua:477: in function 'cb'
+	vim/_editor.lua:263: in function <vim/_editor.lua:262>
+ERR 2023-12-19T11:23:07.516 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-12T15:25:39.610 nvim.5512.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:07.643 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-13T12:18:52.807 nvim.13460.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:07.660 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-13T12:18:53.550 nvim.13460.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:07.744 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-13T12:18:56.140 nvim.13460.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:07.865 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-13T12:27:06.096 nvim.444.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:07.964 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-13T12:41:15.656 nvim.444.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.062 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-13T12:41:18.624 nvim.444.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.132 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
-ERR 2023-11-13T12:41:19.270 nvim.444.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 242 for language c
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.227 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
 stack traceback:
-	[C]: in function '_ts_parse_query'
-	...s/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
-	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
-	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.238 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.245 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.306 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.369 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.432 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.457 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.498 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.531 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.575 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.623 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.661 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.701 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.733 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.784 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.828 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.876 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.926 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:08.956 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.003 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.052 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.101 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.138 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.176 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.223 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.274 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.317 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.352 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.400 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.447 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.493 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.539 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.585 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.620 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.665 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.714 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.764 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.810 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.838 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.885 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.933 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:09.965 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.012 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.064 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.107 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.148 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.192 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.218 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.265 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.328 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.346 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.392 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.439 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.487 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.534 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.583 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.630 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.677 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.724 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.730 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.730 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.755 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.807 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.852 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.901 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.918 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.948 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:10.979 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.027 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.077 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.123 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.171 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.219 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.282 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.314 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.361 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.417 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.459 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.489 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.537 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.576 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.585 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.617 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.671 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.715 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.715 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.760 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.814 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.857 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.903 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.950 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:11.982 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.030 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.080 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.126 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.174 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.220 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.271 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.331 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.367 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.404 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.443 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.491 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.541 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.586 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.633 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.697 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.729 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.776 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.832 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.871 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.934 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:12.965 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.005 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.045 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.105 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.124 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.173 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.219 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.268 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.314 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.351 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-19T11:23:13.368 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6042f22c0
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'nvim_command'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:624: in function '_relayout'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:388: in function 'update_layout'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:157: in function 'init'
+	...ta/Local/nvim-data/lazy/nui.nvim/lua/nui/object/init.lua:132: in function <...ta/Local/nvim-data/lazy/nui.nvim/lua/nui/object/init.lua:130>
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:128: in function 'create'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:287: in function <...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:281>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/view/init.lua:140: in function 'display'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:215: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:98: in function <...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:74>
+ERR 2023-12-19T11:23:13.371 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6042f22c0
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'nvim_command'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:516: in function '_open_window'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:558: in function 'mount'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:243: in function 'mount'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:143: in function 'mount'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:130: in function 'create'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:287: in function <...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:281>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/view/init.lua:140: in function 'display'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:215: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:98: in function <...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:74>
+ERR 2023-12-19T11:23:13.396 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6042f22c0
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'nvim_command'
+	...a/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/border.lua:624: in function '_relayout'
+	...ata/Local/nvim-data/lazy/nui.nvim/lua/nui/popup/init.lua:388: in function 'update_layout'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:262: in function 'update_layout'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:131: in function 'create'
+	...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:287: in function <...a/Local/nvim-data/lazy/noice.nvim/lua/noice/view/nui.lua:281>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/view/init.lua:140: in function 'display'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:215: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:98: in function <...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:74>
+ERR 2023-12-19T11:23:13.472 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6042e8620
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'redraw'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/init.lua:221: in function 'redraw'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:113: in function 'check_redraw'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:225: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:98: in function <...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:74>
+ERR 2023-12-19T11:23:13.550 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6042e8620
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'redraw'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/init.lua:221: in function 'redraw'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:113: in function 'check_redraw'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:225: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:98: in function <...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:74>
+ERR 2023-12-19T11:23:13.819 nvim.13564.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: at 0x7ff6042e8620
+	[C]: in function 'pcall'
+	...Local/nvim-data/lazy/noice.nvim/lua/noice/util/hacks.lua:99: in function 'redraw'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/init.lua:221: in function 'redraw'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:113: in function 'check_redraw'
+	...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:225: in function <...l/nvim-data/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	.../Local/nvim-data/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:98: in function <...ta/Local/nvim-data/lazy/noice.nvim/lua/noice/ui/init.lua:74>
+ERR 2023-12-21T13:33:21.436 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.521 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.541 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.549 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.585 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.622 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.663 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.713 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.744 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.785 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.828 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.872 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.909 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:21.961 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:22.006 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:22.038 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:22.080 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:22.155 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:22.175 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:22.223 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-12-21T13:33:22.388 nvim.12508.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: Invalid 'end_row': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:263: in function 'fn'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:345: in function 'for_each_tree'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <...im/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function 'cmd'
+	...cal/nvim-data/lazy/which-key.nvim/lua/which-key/view.lua:163: in function 'hide'
+	...cal/nvim-data/lazy/which-key.nvim/lua/which-key/view.lua:287: in function 'on_keys'
+	...cal/nvim-data/lazy/which-key.nvim/lua/which-key/view.lua:255: in function 'open'
+	...cal/nvim-data/lazy/which-key.nvim/lua/which-key/init.lua:49: in function 'show'
+	[string ":lua"]:1: in main chunk

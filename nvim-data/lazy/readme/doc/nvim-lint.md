@@ -112,6 +112,7 @@ Other dedicated linters that are built-in are:
 | [ESLint][25]                       | `eslint`               |
 | [eslint_d][37]                     | `eslint_d`             |
 | [fennel][fennel]                   | `fennel`               |
+| [fish][fish]                       | `fish`                 |
 | [Flake8][13]                       | `flake8`               |
 | [flawfinder][35]                   | `flawfinder`           |
 | [gdlint (gdtoolkit)][gdlint]       | `gdlint`               |
@@ -124,6 +125,7 @@ Other dedicated linters that are built-in are:
 | [HTML Tidy][12]                    | `tidy`                 |
 | [Inko][17]                         | `inko`                 |
 | [janet][janet]                     | `janet`                |
+| [joker][joker]                     | `joker`                |
 | [jshint][jshint]                   | `jshint`               |
 | [jsonlint][jsonlint]               | `jsonlint`             |
 | [ktlint][ktlint]                   | `ktlint`               |
@@ -140,8 +142,10 @@ Other dedicated linters that are built-in are:
 | [perlimports][perlimports]         | `perlimports`          |
 | [php][php]                         | `php`                  |
 | [phpcs][phpcs]                     | `phpcs`                |
+| [phpinsights][phpinsights]         | `phpinsights`          |
 | [phpmd][phpmd]                     | `phpmd`                |
 | [phpstan][phpstan]                 | `phpstan`              |
+| [prisma-lint][prisma-lint]         | `prisma-lint`          |
 | [proselint][proselint]             | `proselint`            |
 | [psalm][psalm]                     | `psalm`                |
 | [puppet-lint][puppet-lint]         | `puppet-lint`          |
@@ -167,6 +171,7 @@ Other dedicated linters that are built-in are:
 | [statix check][33]                 | `statix`               |
 | [stylelint][29]                    | `stylelint`            |
 | [Solhint][solhint]                 | `solhint`              |
+| [typos][typos]                     | `typos`                |
 | [Nagelfar][nagelfar]               | `nagelfar`             |
 | [Vale][8]                          | `vale`                 |
 | [Verilator][verilator]             | `verilator`            |
@@ -176,7 +181,9 @@ Other dedicated linters that are built-in are:
 | [write-good][write-good]           | `write_good`           |
 | [yamllint][yamllint]               | `yamllint`             |
 | [tfsec][tfsec]                     | `tfsec`                |
+| [tlint][tlint]                     | `tlint`                |
 | [trivy][trivy]                     | `trivy`                |
+| [zsh][zsh]                         | `zsh`                  |
 
 ## Custom Linters
 
@@ -304,6 +311,35 @@ phpcs.args = {
 ```
 
 
+## Display configuration
+
+See `:help vim.diagnostic.config`.
+
+If you want to have different settings per linter, you can get the `namespace`
+for a linter via `require("lint").get_namespace("linter_name")`. An example:
+
+```lua
+local ns = require("lint").get_namespace("my_linter_name")
+vim.diagnostic.config({ virtual_text = true }, ns)
+```
+
+
+## Get the current running linters for your buffer
+
+You can see which linters are running with `require("lint").get_running()`.
+To include the running linters in the status line you could format them like this:
+
+```lua
+local lint_progress = function()
+  local linters = require("lint").get_running()
+  if #linters == 0 then
+      return "󰦕"
+  end
+  return "󱉶 " .. table.concat(linters, ", ")
+end
+```
+
+
 ## Alternatives
 
 - [Ale][1]
@@ -366,6 +402,7 @@ busted tests/
 [ansible-lint]: https://docs.ansible.com/lint.html
 [pcs-docs]: https://pycodestyle.pycqa.org/en/latest/
 [pydocstyle]: https://www.pydocstyle.org/en/stable/
+[prisma-lint]: https://github.com/loop-payments/prisma-lint
 [checkpatch]: https://docs.kernel.org/dev-tools/checkpatch.html
 [checkstyle]: https://checkstyle.sourceforge.io/
 [jshint]: https://jshint.com/
@@ -382,6 +419,7 @@ busted tests/
 [ktlint]: https://github.com/pinterest/ktlint
 [php]: https://www.php.net/
 [phpcs]: https://github.com/squizlabs/PHP_CodeSniffer
+[phpinsights]: https://github.com/nunomaduro/phpinsights
 [phpmd]: https://phpmd.org/
 [phpstan]: https://phpstan.org/
 [psalm]: https://psalm.dev/
@@ -409,6 +447,7 @@ busted tests/
 [buf_lint]: https://github.com/bufbuild/buf
 [erb-lint]: https://github.com/shopify/erb-lint
 [tfsec]: https://github.com/aquasecurity/tfsec
+[tlint]: https://github.com/tighten/tlint
 [trivy]: https://github.com/aquasecurity/trivy
 [djlint]: https://djlint.com/
 [buildifier]: https://github.com/bazelbuild/buildtools/tree/master/buildifier
@@ -431,5 +470,9 @@ busted tests/
 [snyk]: https://github.com/snyk/cli
 [gitlint]: https://github.com/jorisroovers/gitlint
 [pflake8]: https://github.com/csachs/pyproject-flake8
+[fish]: https://github.com/fish-shell/fish-shell
+[zsh]: https://www.zsh.org/
+[typos]: https://github.com/crate-ci/typos
+[joker]: https://github.com/candid82/joker
 
 <!-- vim: set ft=markdown: -->
