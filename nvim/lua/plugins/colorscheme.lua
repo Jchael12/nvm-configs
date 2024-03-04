@@ -34,201 +34,149 @@ return {{
   --   }
   -- end
 
- -- nightfly colorscheme
 
- -- "bluz71/vim-nightfly-colors",
- --  name = "nightfly",
- --  lazy = true,
- --  priority = 1000,
- --  config = function()
- --    vim.g.nightflyTransparent = true
- --    vim.g.nightflyCursorColor = true
- --    vim.g.nightflyTerminalColors = true
- --  end
-
- -- tokyonight colorscheme
--- {
---   "folke/tokyonight.nvim",
---   lazy = true,
---   priority = 1000,
---   opts = function ()
---       return {
---         style = "moon",
---         transparent = true,
---         terminal_colors = true,
---         styles = {
---           comments = { italic = true},
---           keyword = { italic = true},
---           functions = { bold = true },
---           variables = {},
---           sidebars = "transparent", -- can be "dark", "transparent", "normal"
---           floats = "transparent", -- can be "dark", "transparent", "normal"
---         },
---         sidebars = {"qf", "help"},
---         day_brightness = 0.3,
---         hide_inactive_statusline = false,
---         dim_inactive = true,
---         lualine_bold = true,
---       }
---   end
--- },
-
-  --
-  -- catppuccin colorscheme
-  --
-  -- "catppuccin/nvim",
-  -- name = "catppuccin",
-  -- priority = 1000,
-  -- config = function ()
-  --   require("catppuccin").setup({
-  --     flavour = "mocha", -- latte, frappe, macchiato, mocha
-  --     background = { -- :h background
-  --       light = "latte",
-  --       dark = "mocha",
-  --     },
-  --     transparent_background = true, -- disables setting the background color.
-  --     show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
-  --     term_colors = true, -- sets terminal colors (e.g. `g:terminal_color_0`)
-  --     dim_inactive = {
-  --       enabled = true, -- dims the background color of inactive window
-  --       shade = "dark",
-  --       percentage = 0.15, -- percentage of the shade to apply to the inactive window
-  --     },
-  --     no_italic = false, -- Force no italic
-  --     no_bold = false, -- Force no bold
-  --     no_underline = false, -- Force no underline
-  --     styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
-  --       comments = { "italic" }, -- Change the style of comments
-  --       conditionals = { },
-  --       loops = {'bold'},
-  --       functions = {'bold'},
-  --       keywords = {},
-  --       strings = {},
-  --       variables = {},
-  --       numbers = {},
-  --       booleans = {'italic', 'bold'},
-  --       properties = {},
-  --       types = {},
-  --       operators = {'bold'},
-  --     },
-  --     color_overrides = {},
-  --     custom_highlights = {},
-  --     integrations = {
-  --       cmp = true,
-  --       gitsigns = true,
-  --       nvimtree = true,
-  --       treesitter = true,
-  --       dashboard = true,
-  --       notify = true,
-  --       noice = true,
-  --       mason = true,
-  --       telescope = {
-  --         enabled = true,
-  --         style = "nvchad"
-  --       } ,
-  --       mini = {
-  --         enabled = true,
-  --         indentscope_color = "",
-  --       },
-  --       indent_blankline = {
-  --         enabled = true,
-  --         scope_color = "lavender", -- catppuccin color (eg. `lavender`) Default: text
-  --         colored_indent_levels = false,
-  --       },
-  --       -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
-  --     },
-  --   })
-  --   -- setup must be called before loading
-  --   vim.cmd.colorscheme "catppuccin"
-  -- end
-  --
-  -- sweet fusion colorscheme
-  --
-  -- 'DanielEliasib/sweet-fusion',
-  -- name = 'sweet-fusion',
+  -- "folke/tokyonight.nvim",
   -- lazy = true,
   -- priority = 1000,
-  -- opts = {
-  --   -- Set transparent background
-  --   transparency = true,
-  --   dim_inactive = true,
-  -- }
+  -- opts = function ()
+  --   return {
+  --     style = 'moon',
+  --     transparent = true,
+  --     terminal_colors = true,
+  --     styles = {
+  --       -- Style to be applied to different syntax groups
+  --       -- Value is any valid attr-list value for `:help nvim_set_hl`
+  --       comments = { italic = true },
+  --       keywords = { italic = true },
+  --       functions = {},
+  --       variables = {},
+  --       -- Background styles. Can be "dark", "transparent" or "normal"
+  --       sidebars = "transparent", -- style for sidebars, see below
+  --       floats = "transparent", -- style for floating windows
+  --     }
+  --   }
+  -- end
+
+  -- embark theme
+  -- "genzyy/embark-lua.nvim",
+  -- name = "embark",
+  -- lazy = true,
+  -- priority = 1000,
+  -- config = function()
+  -- end
   --
-  -- rose pine colorscheme
---   "rose-pine/neovim",
---   name = "rose-pine",
+  -- catppuccin theme
+--   "catppuccin/nvim",
+--   name = "catppuccin",
 --   priority = 1000,
---   lazy = true,
---   opts = function ()
---     require('rose-pine').setup({
---       --- @usage 'auto'|'main'|'moon'|'dawn'
---       variant = 'moon',
---       --- @usage 'main'|'moon'|'dawn'
---       dark_variant = 'main',
---       bold_vert_split = false,
---       dim_nc_background = false,
---       disable_background = true,
---       disable_float_background = true,
---       disable_italics = true,
+--   config = function()
+--     require("catppuccin").setup({
+--       flavour = "mocha", -- latte, frappe, macchiato, mocha
+--       background = { -- :h background
+--         light = "latte",
+--         dark = "mocha",
+--       },
+--       transparent_background = true, -- disables setting the background color.
+--       show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
+--       term_colors = true, -- sets terminal colors (e.g. `g:terminal_color_0`)
+--       dim_inactive = {
+--         enabled = false, -- dims the background color of inactive window
+--         shade = "dark",
+--         percentage = 0.15, -- percentage of the shade to apply to the inactive window
+--       },
+--       no_italic = false, -- Force no italic
+--       no_bold = false, -- Force no bold
+--       no_underline = false, -- Force no underline
+--       styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
+--         comments = { "italic" }, -- Change the style of comments
+--         conditionals = { "italic" },
+--         loops = {},
+--         functions = { "bold" },
+--         keywords = { "bold" },
+--         strings = {},
+--         variables = {},
+--         numbers = {},
+--         booleans = {},
+--         properties = {},
+--         types = {"bold"},
+--         operators = {},
+--       },
+--       color_overrides = {},
+--       custom_highlights = {},
+--       integrations = {
+--         cmp = true,
+--         gitsigns = true,
+--         nvimtree = true,
+--         treesitter = true,
+--         notify = true,
+--         dashboard = true,
+--         mason = true,
+--         mini = {
+--           enabled = true,
+--           indentscope_color = "",
+--         },
+--         -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
+--       },
+--     })
 --
--- 	--- @usage string hex value or named color from rosepinetheme.com/palette
--- 	groups = {
--- 		background = 'base',
--- 		background_nc = '_experimental_nc',
--- 		panel = 'surface',
--- 		panel_nc = 'base',
--- 		border = 'highlight_med',
--- 		comment = 'muted',
--- 		link = 'iris',
--- 		punctuation = 'subtle',
---
--- 		error = 'love',
--- 		hint = 'iris',
--- 		info = 'foam',
--- 		warn = 'gold',
---
--- 		headings = {
--- 			h1 = 'iris',
--- 			h2 = 'foam',
--- 			h3 = 'rose',
--- 			h4 = 'gold',
--- 			h5 = 'pine',
--- 			h6 = 'foam',
--- 		}
--- 		-- or set all headings at once
--- 		-- headings = 'subtle'
--- 	},
---
--- 	-- Change specific vim highlight groups
--- 	-- https://github.com/rose-pine/neovim/wiki/Recipes
--- 	highlight_groups = {
--- 		ColorColumn = { bg = 'rose' },
---
--- 		-- Blend colours against the "base" background
--- 		CursorLine = { bg = 'pine', blend = 10 },
--- 		StatusLine = { fg = 'love', bg = 'love', blend = 10 },
---
--- 		-- By default each group adds to the existing config.
--- 		-- If you only want to set what is written in this config exactly,
--- 		-- you can set the inherit option:
--- 		Search = { bg = 'gold', inherit = false },
--- 	}
--- })
---
--- -- Set colorscheme after options
--- vim.cmd('colorscheme rose-pine')
---   end
+-- -- setup must be called before loading
+-- vim.cmd.colorscheme "catppuccin"
+--    end
+
+  -- "nobbmaestro/nvim-andromeda",
+  -- lazy = true,
+  -- priority = 1000,
+  -- branch = "development",
+  -- dependencies = {'tjdevries/colorbuddy.nvim', branch = 'dev'},
+  -- opts = function()
+  --   require('andromeda').setup({
+  --     transparent_bg = true,
+  --     preset = "andromeda",
+  --     colors = {
+  --       background = "#23262e",
+  --       mono_1     = "#2f323c", -- secondary background and/or highlighting
+  --       mono_2     = "#3a3e4b", -- used for highlighting
+  --       mono_3     = "#464959", -- used for highlighting
+  --       mono_4     = "#606064",
+  --       mono_5     = "#a0a1a7", -- comments
+  --       mono_6     = "#d5ced9", -- normal txt
+  --     },
+  --     styles = {
+  --       italic = true,
+  --       bold = true,
+  --       underline = true,
+  --       undercurl = true,
+  --     }
+  --   })
+  -- end
   --
-  -- test scheme
-  "scottmckendry/cyberdream.nvim",
+  --
+  -- "samharju/synthweave.nvim",
+  -- lazy = true, -- make sure we load this during startup if it is your main colorscheme
+  -- priority = 1000,
+  -- config = function()
+  -- end
+  --
+  --
+  --
+  --
+  "olimorris/onedarkpro.nvim",
   lazy = true,
   priority = 1000,
-  config = function()
-    require("cyberdream").setup({
-      transparent = true,
-      hide_fillchars = true,
-      italic_comments = true
+  opts = function()
+    require('onedarkpro').setup({
+      styles = {
+        comments = 'italic',
+        variables = 'italic',
+      },
+      plugins = {
+        all = true
+      },
+      options = {
+        transparency = true,
+        terminal_colors = true
+      }
     })
-    vim.cmd("colorscheme cyberdream")
   end
 }}
+

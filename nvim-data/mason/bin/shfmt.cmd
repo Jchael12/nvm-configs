@@ -7,4 +7,4 @@ EXIT /b
 SETLOCAL
 CALL :find_dp0
 
-endLocal & goto #_undefined_# 2>NUL || title %COMSPEC% & "C:\Users\John Michael Abbas\AppData\Local\nvim-data\mason\packages\shfmt\shfmt_v3.7.0_windows_amd64.exe" %*
+endLocal & goto #_undefined_# 2>NUL || title %COMSPEC% & "C:\Users\John Michael Abbas\AppData\Local\nvim-data\mason\packages\shfmt\shfmt_v3.8.0_windows_amd64.exe" %*

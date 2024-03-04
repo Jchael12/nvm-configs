@@ -13,15 +13,10 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +12 .gitignore
-badd +17 frontend/src/App.jsx
-badd +13 frontend/src/components/Home.jsx
-badd +113 frontend/src/components/Nav.jsx
-badd +1 frontend/src/admin/Login.jsx
+badd +80 frontend/src/components/Home.jsx
 argglobal
 %argdel
-$argadd .gitignore
-edit frontend/src/admin/Login.jsx
+edit frontend/src/components/Home.jsx
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -30,7 +25,6 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-balt frontend/src/components/Nav.jsx
 setlocal fdm=indent
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -39,22 +33,20 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-7
+12
 normal! zo
-50
+13
 normal! zo
-51
+14
 normal! zo
-66
+72
 normal! zo
-67
-normal! zo
-let s:l = 1 - ((0 * winheight(0) + 13) / 27)
+let s:l = 80 - ((17 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1
-normal! 0
+keepjumps 80
+normal! 09|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +234 lua/plugins/colorscheme.lua
+badd +171 lua/plugins/colorscheme.lua
 argglobal
 %argdel
 edit lua/plugins/colorscheme.lua
@@ -33,12 +33,18 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 234 - ((33 * winheight(0) + 17) / 34)
+126
+normal! zo
+167
+normal! zo
+168
+normal! zo
+let s:l = 171 - ((23 * winheight(0) + 17) / 35)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 234
-normal! 0
+keepjumps 171
+normal! 08|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

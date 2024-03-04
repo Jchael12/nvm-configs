@@ -18,8 +18,8 @@ return {
       function ()
         local builtin = require("telescope.builtin")
         builtin.find_files({
-          no_ignore = false,
-          hidden = true
+          no_ignore = true,
+          hidden = false
         })
       end
     },

@@ -16,6 +16,7 @@ Note: if you need support for Neovim 0.6.x please use the tag `compat/0.6`.
 <details>
 <summary>click to expand</summary
 
+  - [x] `apex`
   - [x] `bash`
   - [x] `c`
   - [x] `c_sharp`
@@ -35,6 +36,7 @@ Note: if you need support for Neovim 0.6.x please use the tag `compat/0.6`.
   - [x] `glimmer`
   - [x] `go`
   - [x] `graphql`
+  - [x] `groovy`
   - [x] `haskell`
   - [x] `html_tags`
   - [x] `ini`
@@ -57,6 +59,7 @@ Note: if you need support for Neovim 0.6.x please use the tag `compat/0.6`.
   - [x] `ocaml`
   - [x] `odin`
   - [x] `php`
+  - [x] `php_only`
   - [x] `prisma`
   - [x] `python`
   - [x] `r`
@@ -66,6 +69,7 @@ Note: if you need support for Neovim 0.6.x please use the tag `compat/0.6`.
   - [x] `scss`
   - [x] `smali`
   - [x] `solidity`
+  - [x] `svelte`
   - [x] `swift`
   - [x] `tcl`
   - [x] `teal`
@@ -78,6 +82,7 @@ Note: if you need support for Neovim 0.6.x please use the tag `compat/0.6`.
   - [x] `usd`
   - [x] `verilog`
   - [x] `vim`
+  - [x] `vue`
   - [x] `xml`
   - [x] `yaml`
   - [x] `yang`
@@ -140,6 +145,7 @@ Note: if you need support for Neovim 0.6.x please use the tag `compat/0.6`.
   - [ ] `ledger`
   - [ ] `llvm`
   - [ ] `m68k`
+  - [ ] `markdown_inline`
   - [ ] `menhir`
   - [ ] `mermaid`
   - [ ] `meson`
@@ -172,7 +178,6 @@ Note: if you need support for Neovim 0.6.x please use the tag `compat/0.6`.
   - [ ] `starlark`
   - [ ] `supercollider`
   - [ ] `surface`
-  - [ ] `svelte`
   - [ ] `sxhkdrc`
   - [ ] `t32`
   - [ ] `thrift`
@@ -185,7 +190,6 @@ Note: if you need support for Neovim 0.6.x please use the tag `compat/0.6`.
   - [ ] `v`
   - [ ] `vala`
   - [ ] `vhs`
-  - [ ] `vue`
   - [ ] `wgsl`
   - [ ] `wgsl_bevy`
   - [ ] `yuck`
@@ -230,12 +234,21 @@ context line numbers if `line_numbers` is set. Per default it links to `LineNr`.
 Use the highlight group `TreesitterContextSeparator` to change the colors of the
 separator if `separator` is set. By default it links to `FloatBorder`.
 
-Use the highlight group `TreesitterContextBottom` to change the highlight of the
-last line of the context window. By default it links to `NONE`.
-However, you can use this to create a border by applying an underline highlight, e.g:
+Use the highlight groups `TreesitterContextBottom` and/or
+`TreesitterContextLineNumberBottom` to change the highlight of the last line of
+the context window. By default it links to `NONE`.
+However, you can use this to create a border by applying an underline highlight, e.g,
+for an underline across the screen:
 
 ```vim
 hi TreesitterContextBottom gui=underline guisp=Grey
+hi TreesitterContextLineNumberBottom gui=underline guisp=Grey
+```
+
+Or an underline below the line numbers only:
+
+```vim
+hi TreesitterContextLineNumberBottom gui=underline guisp=Grey
 ```
 
 ## Jumping to context (upwards)

@@ -13,10 +13,11 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +1 AppData/Local/nvim/lua/plugins/colorscheme.lua
+badd +1 ~/main.py
 argglobal
 %argdel
-edit AppData/Local/nvim/lua/plugins/colorscheme.lua
+$argadd test.py
+edit ~/main.py
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -33,17 +34,7 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-22
-normal! zo
-29
-normal! zo
-30
-normal! zo
-57
-normal! zo
-59
-normal! zo
-let s:l = 1 - ((0 * winheight(0) + 16) / 33)
+let s:l = 1 - ((0 * winheight(0) + 15) / 30)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt

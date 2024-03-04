@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +95 frontend/src/components/Form.jsx
+badd +1 frontend/src/components/Form.jsx
 argglobal
 %argdel
 edit frontend/src/components/Form.jsx
@@ -33,21 +33,11 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-18
-normal! zo
-126
-normal! zo
-127
-normal! zo
-128
-normal! zo
-133
-normal! zo
-let s:l = 95 - ((15 * winheight(0) + 15) / 31)
+let s:l = 1 - ((0 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 95
+keepjumps 1
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'

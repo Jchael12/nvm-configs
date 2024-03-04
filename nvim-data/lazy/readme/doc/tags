@@ -20,10 +20,6 @@ cmp-path-label-trailing-slash-type-boolean	cmp-path.md	/### label_trailing_slash
 cmp-path-setup	cmp-path.md	/# Setup
 cmp-path-trailing-slash-type-boolean	cmp-path.md	/### trailing_slash (type: boolean)
 cmp_luasnip-cmp-luasnip	cmp_luasnip.md	/# cmp_luasnip
-cyberdream.nvim-contributing	cyberdream.nvim.md	/## 🤝 Contributing
-cyberdream.nvim-cyberdream	cyberdream.nvim.md	/# CYBERDREAM
-cyberdream.nvim-features	cyberdream.nvim.md	/## 🚀 Features
-cyberdream.nvim-installation	cyberdream.nvim.md	/## 📦 Installation
 friendly-snippets-add-snippets-from-a-framework-to-a-filetype	friendly-snippets.md	/## Add snippets from a framework to a filetype.
 friendly-snippets-credits	friendly-snippets.md	/## Credits
 friendly-snippets-excluding-snippets	friendly-snippets.md	/## Excluding snippets
@@ -240,7 +236,7 @@ nvim-web-devicons-contributing	nvim-web-devicons.md	/## Contributing
 nvim-web-devicons-get-all-icons	nvim-web-devicons.md	/### Get all icons
 nvim-web-devicons-get-icon	nvim-web-devicons.md	/### Get Icon
 nvim-web-devicons-get-icon-and-color-code	nvim-web-devicons.md	/### Get icon and color code
-nvim-web-devicons-getting-icons-by-filetype	nvim-web-devicons.md	/### Getting icons by filetype
+nvim-web-devicons-getting-and-setting-icons-by-filetype	nvim-web-devicons.md	/### Getting and setting icons by filetype
 nvim-web-devicons-installation	nvim-web-devicons.md	/## Installation
 nvim-web-devicons-notice	nvim-web-devicons.md	/# Notice
 nvim-web-devicons-nvim-web-devicons	nvim-web-devicons.md	/# Nvim-web-devicons
@@ -249,6 +245,7 @@ nvim-web-devicons-set-an-icon	nvim-web-devicons.md	/### Set an icon
 nvim-web-devicons-setup	nvim-web-devicons.md	/### Setup
 nvim-web-devicons-usage	nvim-web-devicons.md	/## Usage
 nvim-web-devicons-variants	nvim-web-devicons.md	/### Variants
+nvim-web-devicons-viewing	nvim-web-devicons.md	/### Viewing
 tailwindcss-colorizer-cmp.nvim-hammer-and-wrench-usage	tailwindcss-colorizer-cmp.nvim.md	/## :hammer_and_wrench: Usage
 tailwindcss-colorizer-cmp.nvim-heart-related	tailwindcss-colorizer-cmp.nvim.md	/## :heart: Related
 tailwindcss-colorizer-cmp.nvim-lazy-nvim	tailwindcss-colorizer-cmp.nvim.md	/### Lazy.nvim

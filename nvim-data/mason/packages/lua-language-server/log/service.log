@@ -1,9 +1,9 @@
-[21:37:41.526][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:66]: Lua Lsp startup, root: 	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server
-[21:37:41.526][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:67]: ROOT:	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server
-[21:37:41.526][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:68]: LOGPATH:	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server/log
-[21:37:41.526][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:69]: METAPATH:	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server/meta
-[21:37:41.526][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:70]: VERSION:	3.7.3
-[21:37:41.573][info] [#0:script\service\service.lua:144]: 
+[12:02:21.101][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:66]: Lua Lsp startup, root: 	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server
+[12:02:21.101][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:67]: ROOT:	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server
+[12:02:21.101][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:68]: LOGPATH:	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server/log
+[12:02:21.101][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:69]: METAPATH:	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server/meta
+[12:02:21.101][info] [#0:C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:70]: VERSION:	3.7.4
+[12:02:21.147][info] [#0:script\service\service.lua:144]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 2.182 MB
@@ -25,7 +25,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[21:37:41.573][info] [#0:script\client.lua:657]: Client init	{
+[12:02:21.163][info] [#0:script\client.lua:657]: Client init	{
   capabilities = {
     textDocument = {
       callHierarchy = {
@@ -184,7 +184,7 @@
     version = "0.9.4"
   },
   initializationOptions = {},
-  processId = 19880,
+  processId = 2032,
   rootPath = "C:\\Users\\John Michael Abbas\\AppData\\Local\\nvim",
   rootUri = "file:///C:/Users/John%20Michael%20Abbas/AppData/Local/nvim",
   trace = "off",
@@ -193,7 +193,7 @@
       uri = "file:///C:/Users/John%20Michael%20Abbas/AppData/Local/nvim"
     } }
 }
-[21:37:41.573][info] [#0:script\language.lua:137]: VSC language: nil
-[21:37:41.573][info] [#0:script\language.lua:138]: LS  language: en-us
-[21:37:41.573][info] [#0:script\workspace\workspace.lua:38]: Workspace init root: 	file:///C:/Users/John%20Michael%20Abbas/AppData/Local/nvim
-[21:37:41.573][info] [#0:script\workspace\workspace.lua:42]: Log path: 	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server/log/file_C_Users_John%20Michael%20Abbas_AppData_Local_nvim.log
+[12:02:21.163][info] [#0:script\language.lua:137]: VSC language: nil
+[12:02:21.163][info] [#0:script\language.lua:138]: LS  language: en-us
+[12:02:21.163][info] [#0:script\workspace\workspace.lua:38]: Workspace init root: 	file:///C:/Users/John%20Michael%20Abbas/AppData/Local/nvim
+[12:02:21.163][info] [#0:script\workspace\workspace.lua:42]: Log path: 	C:/Users/John Michael Abbas/AppData/Local/nvim-data/mason/packages/lua-language-server/log/file_C_Users_John%20Michael%20Abbas_AppData_Local_nvim.log

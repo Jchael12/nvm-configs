@@ -13,7 +13,8 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +1 lib/home.dart
+badd +1 lib/pages/bottom_nav_pages/discover\ pages/Japan/japan.dart
+badd +170 lib/home.dart
 argglobal
 %argdel
 edit lib/home.dart
@@ -25,6 +26,7 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
+balt lib/pages/bottom_nav_pages/discover\ pages/Japan/japan.dart
 setlocal fdm=indent
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -33,27 +35,17 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-24
+28
 normal! zo
-95
+99
 normal! zo
-96
+100
 normal! zo
-98
-normal! zo
-102
-normal! zo
-103
-normal! zo
-104
-normal! zo
-107
-normal! zo
-let s:l = 1 - ((0 * winheight(0) + 15) / 31)
+let s:l = 170 - ((15 * winheight(0) + 15) / 31)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1
+keepjumps 170
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
