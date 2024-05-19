@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vscode-langservers-extracted": "^4.8.0"
+    "vscode-langservers-extracted": "^4.10.0"
   }
 }

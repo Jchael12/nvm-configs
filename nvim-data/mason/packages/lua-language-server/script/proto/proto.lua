@@ -1,5 +1,3 @@
-local subprocess = require 'bee.subprocess'
-local socket     = require 'bee.socket'
 local util       = require 'utility'
 local await      = require 'await'
 local pub        = require 'pub'
@@ -7,7 +5,7 @@ local jsonrpc    = require 'jsonrpc'
 local define     = require 'proto.define'
 local json       = require 'json'
 local inspect    = require 'inspect'
-local thread     = require 'bee.thread'
+local platform   = require 'bee.platform'
 local fs         = require 'bee.filesystem'
 local net        = require 'service.net'
 local timer      = require 'timer'
@@ -57,7 +55,6 @@ function m.send(data)
         io.write(buf)
     elseif m.mode == 'socket' then
         m.client:write(buf)
-        net.update()
     end
 end
 
@@ -234,8 +231,12 @@ end
 function m.listen(mode, socketPort)
     m.mode = mode
     if mode == 'stdio' then
-        subprocess.filemode(io.stdin,  'b')
-        subprocess.filemode(io.stdout, 'b')
+        log.info('Listen Mode: stdio')
+        if platform.os == 'windows' then
+            local windows = require 'bee.windows'
+            windows.filemode(io.stdin,  'b')
+            windows.filemode(io.stdout, 'b')
+        end
         io.stdin:setvbuf  'no'
         io.stdout:setvbuf 'no'
         pub.task('loadProtoByStdio')
@@ -245,6 +246,10 @@ function m.listen(mode, socketPort)
         local unixPath = unixFolder .. '/' .. tostring(socketPort)
 
         local server = net.listen('unix', unixPath)
+
+        log.info('Listen Mode: socket')
+        log.info('Listen Port:', socketPort)
+        log.info('Listen Path:', unixPath)
 
         assert(server)
 
@@ -257,15 +262,14 @@ function m.listen(mode, socketPort)
         }
         m.client = dummyClient
 
-        local t = timer.loop(0.1, function ()
-            net.update()
-        end)
-
-        function server:on_accept(client)
-            t:remove()
+        function server:on_accepted(client)
             m.client = client
             client:write(dummyClient.buf)
-            net.update()
+            return true
+        end
+
+        function server:on_error(...)
+            log.error(...)
         end
 
         pub.task('loadProtoBySocket', {

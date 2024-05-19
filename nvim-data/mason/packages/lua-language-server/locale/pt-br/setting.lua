@@ -48,6 +48,8 @@ config.diagnostics.disable        = -- TODO: need translate!
 "Disabled diagnostic (Use code in hover brackets)."
 config.diagnostics.globals        = -- TODO: need translate!
 "Defined global variables."
+config.diagnostics.globalsRegex   = -- TODO: need translate!
+"Find defined global variables using regex."
 config.diagnostics.severity       = -- TODO: need translate!
 [[
 Modify the diagnostic severity.
@@ -293,6 +295,12 @@ When checking the type of union type, ignore the `nil` in it.
 
 When this setting is `false`, the `number|nil` type cannot be assigned to the `number` type. It can be with `true`.
 ]]
+config.type.inferParamType               = -- TODO: need translate!
+[[
+When the parameter type is not annotated, the parameter type is inferred from the function's incoming parameters.
+
+When this setting is `false`, the type of the parameter is `any` when it is not annotated.
+]]
 config.doc.privateName                   = -- TODO: need translate!
 'Treat specific field names as private, e.g. `m_*` means `XXX.m_id` and `XXX.m_type` are private, witch can only be accessed in the class where the definition is located.'
 config.doc.protectedName                 = -- TODO: need translate!
@@ -434,3 +442,7 @@ command.addon_manager.open = -- TODO: need translate!
 'Lua: Open Addon Manager ...'
 command.reloadFFIMeta = -- TODO: need translate!
 'Lua: Reload luajit ffi meta'
+command.startServer = -- TODO: need translate!
+'Lua: (debug) Start Language Server'
+command.stopServer = -- TODO: need translate!
+'Lua: (debug) Stop Language Server'

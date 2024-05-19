@@ -1,0 +1,1 @@
+{"primary_source":{"id":"pkg:pypi\/isort@5.13.2","type":"registry+v1"},"name":"isort","schema_version":"1.1","links":{"share":{},"opt":{},"bin":{"isort.cmd":"venv\\Scripts\\isort.exe"}},"metrics":{"completion_time":1716053984870,"start_time":1716053977776},"secondary_sources":[]}

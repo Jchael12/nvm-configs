@@ -223,8 +223,8 @@ local template = {
                                                 '||', '&&', '!', '!=',
                                                 'continue',
                                             }),
-    ['Lua.runtime.plugin']                  = Type.String,
-    ['Lua.runtime.pluginArgs']              = Type.Array(Type.String),
+    ['Lua.runtime.plugin']                  = Type.Or(Type.String, Type.Array(Type.String)) ,
+    ['Lua.runtime.pluginArgs']              = Type.Or(Type.Array(Type.String), Type.Hash(Type.String, Type.String)),
     ['Lua.runtime.fileEncoding']            = Type.String >> 'utf8' << {
                                                 'utf8',
                                                 'ansi',
@@ -242,6 +242,7 @@ local template = {
                                             >> util.deepCopy(define.BuiltIn),
     ['Lua.diagnostics.enable']              = Type.Boolean >> true,
     ['Lua.diagnostics.globals']             = Type.Array(Type.String),
+    ['Lua.diagnostics.globalsRegex']        = Type.Array(Type.String),
     ['Lua.diagnostics.disable']             = Type.Array(Type.String << util.getTableKeys(diag.getDiagAndErrNameMap(), true)),
     ['Lua.diagnostics.severity']            = Type.Hash(
                                                 Type.String << util.getTableKeys(define.DiagnosticDefaultNeededFileStatus, true),
@@ -397,6 +398,7 @@ local template = {
     ['Lua.type.castNumberToInteger']        = Type.Boolean >> true,
     ['Lua.type.weakUnionCheck']             = Type.Boolean >> false,
     ['Lua.type.weakNilCheck']               = Type.Boolean >> false,
+    ['Lua.type.inferParamType']            = Type.Boolean >> false,
     ['Lua.doc.privateName']                 = Type.Array(Type.String),
     ['Lua.doc.protectedName']               = Type.Array(Type.String),
     ['Lua.doc.packageName']                 = Type.Array(Type.String),

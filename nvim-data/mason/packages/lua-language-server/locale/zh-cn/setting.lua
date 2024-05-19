@@ -48,6 +48,8 @@ config.diagnostics.disable        =
 "禁用的诊断（使用浮框括号内的代码）。"
 config.diagnostics.globals        =
 "已定义的全局变量。"
+config.diagnostics.globalsRegex   = -- TODO: need translate!
+"Find defined global variables using regex."
 config.diagnostics.severity       =
 [[
 修改诊断等级。
@@ -292,6 +294,12 @@ config.type.weakNilCheck                 =
 
 此设置为 `false` 时，`numer|nil` 类型无法赋给 `number` 类型；为 `true` 是则可以。
 ]]
+config.type.inferParamType               =
+[[
+未注释参数类型时，参数类型由函数传入参数推断。
+
+如果设置为 "false"，则在未注释时，参数类型为 "any"。
+]]
 config.doc.privateName                   =
 '将特定名称的字段视为私有，例如 `m_*` 意味着 `XXX.m_id` 与 `XXX.m_type` 是私有字段，只能在定义所在的类中访问。'
 config.doc.protectedName                 =
@@ -433,3 +441,7 @@ command.addon_manager.open =
 'Lua: 打开插件管理器...'
 command.reloadFFIMeta =
 'Lua: 重新生成luajit的FFI模块C语言元数据'
+command.startServer =
+'Lua: (debug) 启动服务器'
+command.stopServer =
+'Lua: (debug) 停止服务器'

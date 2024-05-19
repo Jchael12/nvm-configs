@@ -1,0 +1,52 @@
+name: Continuous Integration
+on: 
+  - push
+  - pull_request
+jobs:
+  tests:
+    name: 🧪 Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Neovim
+        shell: bash
+        run: |
+          mkdir -p /tmp/nvim
+          wget -q https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage -O /tmp/nvim/nvim.appimage
+          cd /tmp/nvim
+          chmod a+x ./nvim.appimage
+          ./nvim.appimage --appimage-extract
+          echo "/tmp/nvim/squashfs-root/usr/bin/" >> $GITHUB_PATH
+      - name: Run Tests
+        run: |
+          nvim --version
+          [ ! -d tests ] && exit 0
+          nvim --headless -u tests/init.lua -c "PlenaryBustedDirectory tests/ {minimal_init = 'tests/init.lua', sequential = true}"
+  styles:
+    name: 💅 Styles
+    needs: tests
+    if: always()
+    runs-on: ubuntu-20.04
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Format code
+        uses: JohnnyMorganz/stylua-action@v3.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          version: latest
+          args: lua/
+
+
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "styles: auto-format with stylua"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"

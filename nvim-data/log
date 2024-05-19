@@ -1,2 +1,4 @@
-ERR 2024-02-03T17:27:33.144 nvim.5400.0 chan_close_with_error:653: RPC: ch 1: stream write failed. RPC canceled; closing channel
-ERR 2024-02-19T18:07:35.058 nvim.9676.0 chan_close_with_error:653: RPC: ch 1: stream write failed. RPC canceled; closing channel
+ERR 2024-05-13T15:21:11.082 nvim.9956.0 vim_gettempdir:5374: tempdir disappeared (antivirus or broken cleanup job?): C:\Users\JOHNMI~1\AppData\Local\Temp\nvim.0\PSvjd8\
+WRN 2024-05-19T01:31:08.826 nvim.1388.0 os_icon_init:89: neovim.ico not found: C:/Program Files (x86)/nvim/share/nvim/neovim.ico
+WRN 2024-05-19T01:31:14.185 nvim.13864.0 os_icon_init:89: neovim.ico not found: C:/Program Files (x86)/nvim/share/nvim/neovim.ico
+WRN 2024-05-19T01:31:47.691 nvim.10220.0 os_icon_init:89: neovim.ico not found: C:/Program Files (x86)/nvim/share/nvim/neovim.ico

@@ -52,8 +52,9 @@ local accept = {
     ['doc.class.name']   = true,
     ['doc.extends.name'] = true,
     ['doc.alias.name']   = true,
+    ['doc.cast.name']    = true,
     ['doc.enum.name']    = true,
-    ['doc.see.name']     = true,
+    ['doc.field.name']   = true,
 }
 
 local function checkRequire(source, offset)

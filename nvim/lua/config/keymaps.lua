@@ -1,8 +1,7 @@
 -- Keymaps are automatically loaded on the VeryLazy event
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
-
-local discipline = require("jchael.discipline")
+local discipline = require('jchael.discipline')
 discipline.cowboy()
 
 local keymap = vim.keymap
@@ -10,25 +9,23 @@ local opts = { noremap = true, silent = true}
 
 keymap.set("i", "kj", "<ESC>")
 
--- Increment / Decrement
+-- Increment and Decrement
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
 
 -- Delete a word backward
 keymap.set("n", "db", "vb_d")
-
--- Select all 
+-- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
-
--- Jump list
+-- Jump List
 keymap.set("n", "<C-m>", "<C-i>", opts)
 
--- New tab
+-- New Tab
 keymap.set("n", "te", ":tabedit", opts)
 keymap.set("n", "<tab>", ":tabnext<Return>", opts)
 keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 
--- Split window
+-- Split windows
 keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
@@ -38,17 +35,17 @@ keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sk", "<C-w>k")
 keymap.set("n", "sl", "<C-w>l")
 
--- Resize window
+-- Resize windows
 keymap.set("n", "<C-w><left>", "<C-w><")
 keymap.set("n", "<C-w><right>", "<C-w>>")
 keymap.set("n", "<C-w><up>", "<C-w>+")
 keymap.set("n", "<C-w><down>", "<C-w>-")
 
--- navigate through file up and down remaining the cursors at the middle of the file
-keymap.set("n", "<C-d>", "<C-d>zz", { desc = "navigate downwards remains cursor at the middle" })
-keymap.set("n", "<C-u>", "<C-u>zz", { desc = "navigate upwards remains cursor at the middle" })
+-- navigate through file up and down while the cursor remains at the middle of the screen
+keymap.set("n", "<C-d>", "<C-d>zz", { desc = "navigate downwards remains cursor at  the middle"})
+keymap.set("n", "<C-u>", "<C-u>zz", { desc = "navigate upwards remains cursor at  the middle"})
 
--- floaterm nvim
+-- Float term
 keymap.set("n", "<leader>nft", ":FloatermNew<CR>")
 keymap.set("t", "<leader>cft", "<C-\\><C-n>:FloatermNew<CR>")
 keymap.set("n", "<leader>pft", ":FloatermPrev<CR>")

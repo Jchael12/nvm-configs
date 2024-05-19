@@ -48,6 +48,8 @@ config.diagnostics.disable        =
 "停用的診斷（使用浮框括號內的程式碼）。"
 config.diagnostics.globals        =
 "已定義的全域變數。"
+config.diagnostics.globalsRegex   = -- TODO: need translate!
+"Find defined global variables using regex."
 config.diagnostics.severity       =
 [[
 修改診斷等級。
@@ -292,6 +294,12 @@ When checking the type of union type, ignore the `nil` in it.
 
 When this setting is `false`, the `number|nil` type cannot be assigned to the `number` type. It can be with `true`.
 ]]
+config.type.inferParamType               = -- TODO: need translate!
+[[
+未注释参数类型时，参数类型由函数传入参数推断。
+
+如果设置为 "false"，则在未注释时，参数类型为 "any"。
+]]
 config.doc.privateName                   = -- TODO: need translate!
 'Treat specific field names as private, e.g. `m_*` means `XXX.m_id` and `XXX.m_type` are private, witch can only be accessed in the class where the definition is located.'
 config.doc.protectedName                 = -- TODO: need translate!
@@ -433,3 +441,7 @@ command.addon_manager.open = -- TODO: need translate!
 'Lua: Open Addon Manager ...'
 command.reloadFFIMeta = -- TODO: need translate!
 'Lua: Reload luajit ffi meta'
+command.startServer = -- TODO: need translate!
+'Lua: (debug) Start Language Server'
+command.stopServer = -- TODO: need translate!
+'Lua: (debug) Stop Language Server'
