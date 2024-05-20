@@ -4262,7 +4262,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:cargo/gitlab-ci-ls@0.17.4"
+      "id": "pkg:cargo/gitlab-ci-ls@0.17.5"
     },
     "bin": {
       "gitlab-ci-ls": "cargo:gitlab-ci-ls"
@@ -4800,7 +4800,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/golangci/golangci-lint@v1.58.1",
+      "id": "pkg:github/golangci/golangci-lint@v1.58.2",
       "asset": [
         {
           "target": "linux_armv6l",
@@ -5401,7 +5401,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/mrjosh/helm-ls@v0.0.16",
+      "id": "pkg:github/mrjosh/helm-ls@v0.0.17",
       "asset": [
         {
           "target": "darwin_x64",
@@ -6383,6 +6383,29 @@
     }
   },
   {
+    "name": "ktfmt",
+    "description": "A program that reformats Kotlin source code to comply with the common community conventions.",
+    "homepage": "https://github.com/facebook/ktfmt",
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "languages": [
+      "Kotlin"
+    ],
+    "categories": [
+      "Formatter"
+    ],
+    "source": {
+      "id": "pkg:github/facebook/ktfmt@v0.49",
+      "asset": {
+        "file": "ktfmt-{{ version | strip_prefix \"v\" }}-jar-with-dependencies.jar"
+      }
+    },
+    "bin": {
+      "ktfmt": "java-jar:{{source.asset.file}}"
+    }
+  },
+  {
     "name": "ktlint",
     "description": "An anti-bikeshedding Kotlin linter with built-in formatter.",
     "homepage": "https://github.com/pinterest/ktlint",
@@ -6768,6 +6791,11 @@
           "bin": "exec:libexec/bin/lua-language-server"
         },
         {
+          "target": "linux_arm64_gnu",
+          "file": "lua-language-server-{{version}}-linux-arm64.tar.gz:libexec/",
+          "bin": "exec:libexec/bin/lua-language-server"
+        },
+        {
           "target": "linux_x64_gnu",
           "file": "lua-language-server-{{version}}-linux-x64.tar.gz:libexec/",
           "bin": "exec:libexec/bin/lua-language-server"
@@ -6784,6 +6812,37 @@
         }
       ],
       "version_overrides": [
+        {
+          "constraint": "semver:<=3.8.3",
+          "id": "pkg:github/LuaLS/lua-language-server@3.8.3",
+          "asset": [
+            {
+              "target": "darwin_arm64",
+              "file": "lua-language-server-{{version}}-darwin-arm64.tar.gz:libexec/",
+              "bin": "exec:libexec/bin/lua-language-server"
+            },
+            {
+              "target": "darwin_x64",
+              "file": "lua-language-server-{{version}}-darwin-x64.tar.gz:libexec/",
+              "bin": "exec:libexec/bin/lua-language-server"
+            },
+            {
+              "target": "linux_x64_gnu",
+              "file": "lua-language-server-{{version}}-linux-x64.tar.gz:libexec/",
+              "bin": "exec:libexec/bin/lua-language-server"
+            },
+            {
+              "target": "linux_x64_musl",
+              "file": "lua-language-server-{{version}}-linux-x64-musl.tar.gz:libexec/",
+              "bin": "exec:libexec/bin/lua-language-server"
+            },
+            {
+              "target": "win_x64",
+              "file": "lua-language-server-{{version}}-win32-x64.zip",
+              "bin": "bin/lua-language-server.exe"
+            }
+          ]
+        },
         {
           "constraint": "semver:<=3.7.4",
           "id": "pkg:github/LuaLS/lua-language-server@3.7.4",
@@ -6883,7 +6942,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/JohnnyMorganz/luau-lsp@1.29.0",
+      "id": "pkg:github/JohnnyMorganz/luau-lsp@1.29.1",
       "asset": [
         {
           "target": [
@@ -11038,7 +11097,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40spyglassmc/language-server@0.4.2"
+      "id": "pkg:npm/%40spyglassmc/language-server@0.4.6"
     },
     "bin": {
       "spyglassmc-language-server": "npm:spyglassmc-language-server"

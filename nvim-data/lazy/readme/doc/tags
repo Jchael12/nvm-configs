@@ -1,8 +1,8 @@
 !_TAG_FILE_ENCODING	utf-8	//
-Autotag-default-values	Autotag.md	/## Default values
+Autotag-contributors	Autotag.md	/## Contributors
 Autotag-enable-update-on-insert	Autotag.md	/### Enable update on insert
+Autotag-extending-the-default-config	Autotag.md	/### Extending the default config
 Autotag-nvim-ts-autotag	Autotag.md	/# nvim-ts-autotag
-Autotag-override-default-values	Autotag.md	/### Override default values
 Autotag-setup	Autotag.md	/## Setup
 Autotag-sponsor	Autotag.md	/## Sponsor
 Autotag-usage	Autotag.md	/## Usage
