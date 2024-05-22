@@ -1,267 +1,119 @@
 !_TAG_FILE_ENCODING	utf-8	//
-Autotag-contributors	Autotag.md	/## Contributors
-Autotag-enable-update-on-insert	Autotag.md	/### Enable update on insert
-Autotag-extending-the-default-config	Autotag.md	/### Extending the default config
-Autotag-nvim-ts-autotag	Autotag.md	/# nvim-ts-autotag
-Autotag-setup	Autotag.md	/## Setup
-Autotag-sponsor	Autotag.md	/## Sponsor
-Autotag-usage	Autotag.md	/## Usage
-Cmp-Buffer-all-buffers	Cmp-Buffer.md	/##### All buffers
-Cmp-Buffer-cmp-buffer	Cmp-Buffer.md	/# cmp-buffer
-Cmp-Buffer-configuration	Cmp-Buffer.md	/## Configuration
-Cmp-Buffer-get-bufnrs-type-fun-number	Cmp-Buffer.md	/### get_bufnrs (type: fun(): number\[\])
-Cmp-Buffer-indexing-and-how-to-optimize-it	Cmp-Buffer.md	/## Indexing and how to optimize it
-Cmp-Buffer-indexing-batch-size-type-number	Cmp-Buffer.md	/### indexing_batch_size (type: number)
-Cmp-Buffer-indexing-interval-type-number	Cmp-Buffer.md	/### indexing_interval (type: number)
-Cmp-Buffer-keyword-length-type-number	Cmp-Buffer.md	/### keyword_length (type: number)
-Cmp-Buffer-keyword-pattern-type-string	Cmp-Buffer.md	/### keyword_pattern (type: string)
-Cmp-Buffer-locality-bonus-comparator-distance-based-sorting	Cmp-Buffer.md	/## Locality bonus comparator (distance-based sorting)
-Cmp-Buffer-max-indexed-line-length-type-number	Cmp-Buffer.md	/### max_indexed_line_length (type: number)
-Cmp-Buffer-performance-on-large-text-files	Cmp-Buffer.md	/### Performance on large text files
-Cmp-Buffer-setup	Cmp-Buffer.md	/## Setup
-Cmp-Buffer-visible-buffers	Cmp-Buffer.md	/##### Visible buffers
-Cmp-Lua-cmp-nvim-lua	Cmp-Lua.md	/# cmp-nvim-lua
-Cmp-Lua-include-deprecated-boolean-default-false	Cmp-Lua.md	/### `include_deprecated` (boolean: default false)
-Cmp-Lua-options	Cmp-Lua.md	/# Options
-Cmp-Lua-setup	Cmp-Lua.md	/# Setup
-Cmp-Lua-what-is-this-source	Cmp-Lua.md	/# What is this source?
-Icons-contributing	Icons.md	/## Contributing
-Icons-get-all-icons	Icons.md	/### Get all icons
-Icons-get-icon	Icons.md	/### Get Icon
-Icons-get-icon-and-color-code	Icons.md	/### Get icon and color code
-Icons-getting-and-setting-icons-by-filetype	Icons.md	/### Getting and setting icons by filetype
-Icons-installation	Icons.md	/## Installation
-Icons-known-issues	Icons.md	/## Known Issues
-Icons-my-setup-overrides-are-not-applied	Icons.md	/### My `setup` Overrides Are Not Applied
-Icons-notice	Icons.md	/# Notice
-Icons-nvim-web-devicons	Icons.md	/# Nvim-web-devicons
-Icons-requirements	Icons.md	/## Requirements
-Icons-set-an-icon	Icons.md	/### Set an icon
-Icons-setup	Icons.md	/### Setup
-Icons-usage	Icons.md	/## Usage
-Icons-variants	Icons.md	/### Variants
-Icons-viewing	Icons.md	/### Viewing
-Icons-windows-and-wsl-not-rendering-icons-properly-on-some-terminals	Icons.md	/### Windows and WSL not rendering icons properly on some terminals
-LazyGit-bashrc	LazyGit.md	/# ~\/.bashrc
-LazyGit-config-jesseduffield-lazygit-config-yml	LazyGit.md	/# ~\/.config\/jesseduffield\/lazygit\/config.yml
-LazyGit-highlighting-groups	LazyGit.md	/### Highlighting groups
-LazyGit-install	LazyGit.md	/### Install
-LazyGit-lazygit-nvim	LazyGit.md	/# lazygit.nvim
-LazyGit-telescope-plugin	LazyGit.md	/### Telescope Plugin
-LazyGit-usage	LazyGit.md	/### Usage
-Lspkind-configuration	Lspkind.md	/## Configuration
-Lspkind-lspkind-nvim	Lspkind.md	/# lspkind-nvim
-Lspkind-option-1-vanilla-neovim-lsp	Lspkind.md	/### Option 1: vanilla Neovim LSP
-Lspkind-option-2-nvim-cmp-https-github-com-hrsh7th-nvim-cmp	Lspkind.md	/### Option 2: \[nvim-cmp\](https:\/\/github.com\/hrsh7th\/nvim-cmp)
-Lspkind-related-lsp-plugins	Lspkind.md	/## Related LSP plugins
-Lspkind-requirements	Lspkind.md	/## Requirements
-MarkdownPreview-about-vim-support	MarkdownPreview.md	/### About Vim Support
-MarkdownPreview-buy-me-a-coffee	MarkdownPreview.md	/### Buy Me A Coffee ☕️
-MarkdownPreview-custom-examples	MarkdownPreview.md	/### Custom Examples
-MarkdownPreview-faq	MarkdownPreview.md	/### FAQ
-MarkdownPreview-how-can-i-change-the-dark-light-theme	MarkdownPreview.md	/#### *How can I change the dark\/light theme?*
-MarkdownPreview-how-can-i-pass-cli-options-to-the-browser-like-opening-in-a-new-window	MarkdownPreview.md	/#### *How can I pass CLI options to the browser, like opening in a new window?*
-MarkdownPreview-installation-usage	MarkdownPreview.md	/### Installation & Usage
-MarkdownPreview-introduction	MarkdownPreview.md	/### Introduction
-MarkdownPreview-markdownpreview-config	MarkdownPreview.md	/### MarkdownPreview Config:
-MarkdownPreview-references	MarkdownPreview.md	/### References
-MarkdownPreview-why-is-the-synchronised-scrolling-lagging	MarkdownPreview.md	/#### *Why is the synchronised scrolling lagging?*
-MasonTools-commands	MasonTools.md	/## Commands
-MasonTools-configuration	MasonTools.md	/## Configuration
-MasonTools-events	MasonTools.md	/## Events
-MasonTools-installation	MasonTools.md	/## Installation
-MasonTools-mason-tool-installer	MasonTools.md	/# mason-tool-installer
-MasonTools-requirements	MasonTools.md	/## Requirements
-MasonTools-suggestions-complaints-help	MasonTools.md	/## Suggestions \/ Complaints \/ Help
-Nui-blocks	Nui.md	/## Blocks
-Nui-components	Nui.md	/## Components
-Nui-extendibility	Nui.md	/## Extendibility
-Nui-input-lua-nui-input	Nui.md	/### \[Input\](lua\/nui\/input)
-Nui-installation	Nui.md	/## Installation
-Nui-layout-lua-nui-layout	Nui.md	/### \[Layout\](lua\/nui\/layout)
-Nui-license	Nui.md	/## License
-Nui-lua-nui-input-default-value	Nui-lua-nui-input.md	/### `default_value`
-Nui-lua-nui-input-disable-cursor-position-patch	Nui-lua-nui-input.md	/### `disable_cursor_position_patch`
-Nui-lua-nui-input-input	Nui-lua-nui-input.md	/# Input
-Nui-lua-nui-input-methods	Nui-lua-nui-input.md	/## Methods
-Nui-lua-nui-input-on-change	Nui-lua-nui-input.md	/### `on_change`
-Nui-lua-nui-input-on-close	Nui-lua-nui-input.md	/### `on_close`
-Nui-lua-nui-input-on-submit	Nui-lua-nui-input.md	/### `on_submit`
-Nui-lua-nui-input-options	Nui-lua-nui-input.md	/## Options
-Nui-lua-nui-input-prompt	Nui-lua-nui-input.md	/### `prompt`
-Nui-lua-nui-input-wiki-page	Nui-lua-nui-input.md	/## Wiki Page
-Nui-lua-nui-layout-anchor	Nui-lua-nui-layout.md	/### `anchor`
-Nui-lua-nui-layout-layout	Nui-lua-nui-layout.md	/# Layout
-Nui-lua-nui-layout-layout-box	Nui-lua-nui-layout.md	/## Layout.Box
-Nui-lua-nui-layout-layout-hide	Nui-lua-nui-layout.md	/### `layout:hide`
-Nui-lua-nui-layout-layout-mount	Nui-lua-nui-layout.md	/### `layout:mount`
-Nui-lua-nui-layout-layout-show	Nui-lua-nui-layout.md	/### `layout:show`
-Nui-lua-nui-layout-layout-unmount	Nui-lua-nui-layout.md	/### `layout:unmount`
-Nui-lua-nui-layout-layout-update	Nui-lua-nui-layout.md	/### `layout:update`
-Nui-lua-nui-layout-methods	Nui-lua-nui-layout.md	/## Methods
-Nui-lua-nui-layout-options-for-float-layout	Nui-lua-nui-layout.md	/## Options (for float layout)
-Nui-lua-nui-layout-options-for-split-layout	Nui-lua-nui-layout.md	/## Options (for split layout)
-Nui-lua-nui-layout-position	Nui-lua-nui-layout.md	/### `position`
-Nui-lua-nui-layout-relative	Nui-lua-nui-layout.md	/### `relative`
-Nui-lua-nui-layout-size	Nui-lua-nui-layout.md	/### `size`
-Nui-lua-nui-layout-wiki-page	Nui-lua-nui-layout.md	/## Wiki Page
-Nui-lua-nui-line-line-append	Nui-lua-nui-line.md	/### `line:append`
-Nui-lua-nui-line-line-content	Nui-lua-nui-line.md	/### `line:content`
-Nui-lua-nui-line-line-highlight	Nui-lua-nui-line.md	/### `line:highlight`
-Nui-lua-nui-line-line-render	Nui-lua-nui-line.md	/### `line:render`
-Nui-lua-nui-line-methods	Nui-lua-nui-line.md	/## Methods
-Nui-lua-nui-line-nuiline	Nui-lua-nui-line.md	/# NuiLine
-Nui-lua-nui-line-parameters	Nui-lua-nui-line.md	/## Parameters
-Nui-lua-nui-line-texts	Nui-lua-nui-line.md	/### `texts`
-Nui-lua-nui-line-wiki-page	Nui-lua-nui-line.md	/## Wiki Page
-Nui-lua-nui-menu-keymap	Nui-lua-nui-menu.md	/### `keymap`
-Nui-lua-nui-menu-lines	Nui-lua-nui-menu.md	/### `lines`
-Nui-lua-nui-menu-max-height	Nui-lua-nui-menu.md	/### `max_height`
-Nui-lua-nui-menu-max-width	Nui-lua-nui-menu.md	/### `max_width`
-Nui-lua-nui-menu-menu	Nui-lua-nui-menu.md	/# Menu
-Nui-lua-nui-menu-menu-tree	Nui-lua-nui-menu.md	/### `menu.tree`
-Nui-lua-nui-menu-methods	Nui-lua-nui-menu.md	/## Methods
-Nui-lua-nui-menu-min-height	Nui-lua-nui-menu.md	/### `min_height`
-Nui-lua-nui-menu-min-width	Nui-lua-nui-menu.md	/### `min_width`
-Nui-lua-nui-menu-on-change	Nui-lua-nui-menu.md	/### `on_change`
-Nui-lua-nui-menu-on-close	Nui-lua-nui-menu.md	/### `on_close`
-Nui-lua-nui-menu-on-submit	Nui-lua-nui-menu.md	/### `on_submit`
-Nui-lua-nui-menu-options	Nui-lua-nui-menu.md	/## Options
-Nui-lua-nui-menu-prepare-item	Nui-lua-nui-menu.md	/### `prepare_item`
-Nui-lua-nui-menu-properties	Nui-lua-nui-menu.md	/## Properties
-Nui-lua-nui-menu-should-skip-item	Nui-lua-nui-menu.md	/### `should_skip_item`
-Nui-lua-nui-menu-wiki-page	Nui-lua-nui-menu.md	/## Wiki Page
-Nui-lua-nui-popup-anchor	Nui-lua-nui-popup.md	/### `anchor`
-Nui-lua-nui-popup-border	Nui-lua-nui-popup.md	/### `border`
-Nui-lua-nui-popup-border-padding	Nui-lua-nui-popup.md	/#### `border.padding`
-Nui-lua-nui-popup-border-style	Nui-lua-nui-popup.md	/#### `border.style`
-Nui-lua-nui-popup-border-text	Nui-lua-nui-popup.md	/#### `border.text`
-Nui-lua-nui-popup-buf-options	Nui-lua-nui-popup.md	/### `buf_options`
-Nui-lua-nui-popup-bufnr	Nui-lua-nui-popup.md	/### `bufnr`
-Nui-lua-nui-popup-enter	Nui-lua-nui-popup.md	/### `enter`
-Nui-lua-nui-popup-focusable	Nui-lua-nui-popup.md	/### `focusable`
-Nui-lua-nui-popup-methods	Nui-lua-nui-popup.md	/## Methods
-Nui-lua-nui-popup-ns-id	Nui-lua-nui-popup.md	/### `ns_id`
-Nui-lua-nui-popup-options	Nui-lua-nui-popup.md	/## Options
-Nui-lua-nui-popup-popup	Nui-lua-nui-popup.md	/# Popup
-Nui-lua-nui-popup-popup-border-set-highlight	Nui-lua-nui-popup.md	/### `popup.border:set_highlight`
-Nui-lua-nui-popup-popup-border-set-style	Nui-lua-nui-popup.md	/### `popup.border:set_style`
-Nui-lua-nui-popup-popup-border-set-text	Nui-lua-nui-popup.md	/### `popup.border:set_text`
-Nui-lua-nui-popup-popup-hide	Nui-lua-nui-popup.md	/### `popup:hide`
-Nui-lua-nui-popup-popup-map	Nui-lua-nui-popup.md	/### `popup:map`
-Nui-lua-nui-popup-popup-mount	Nui-lua-nui-popup.md	/### `popup:mount`
-Nui-lua-nui-popup-popup-off	Nui-lua-nui-popup.md	/### `popup:off`
-Nui-lua-nui-popup-popup-on	Nui-lua-nui-popup.md	/### `popup:on`
-Nui-lua-nui-popup-popup-show	Nui-lua-nui-popup.md	/### `popup:show`
-Nui-lua-nui-popup-popup-unmap	Nui-lua-nui-popup.md	/### `popup:unmap`
-Nui-lua-nui-popup-popup-unmount	Nui-lua-nui-popup.md	/### `popup:unmount`
-Nui-lua-nui-popup-popup-update-layout	Nui-lua-nui-popup.md	/### `popup:update_layout`
-Nui-lua-nui-popup-position	Nui-lua-nui-popup.md	/### `position`
-Nui-lua-nui-popup-relative	Nui-lua-nui-popup.md	/### `relative`
-Nui-lua-nui-popup-size	Nui-lua-nui-popup.md	/### `size`
-Nui-lua-nui-popup-wiki-page	Nui-lua-nui-popup.md	/## Wiki Page
-Nui-lua-nui-popup-win-options	Nui-lua-nui-popup.md	/### `win_options`
-Nui-lua-nui-popup-zindex	Nui-lua-nui-popup.md	/### `zindex`
-Nui-lua-nui-split-buf-options	Nui-lua-nui-split.md	/### `buf_options`
-Nui-lua-nui-split-enter	Nui-lua-nui-split.md	/### `enter`
-Nui-lua-nui-split-methods	Nui-lua-nui-split.md	/## Methods
-Nui-lua-nui-split-ns-id	Nui-lua-nui-split.md	/### `ns_id`
-Nui-lua-nui-split-options	Nui-lua-nui-split.md	/## Options
-Nui-lua-nui-split-position	Nui-lua-nui-split.md	/### `position`
-Nui-lua-nui-split-relative	Nui-lua-nui-split.md	/### `relative`
-Nui-lua-nui-split-size	Nui-lua-nui-split.md	/### `size`
-Nui-lua-nui-split-split	Nui-lua-nui-split.md	/# Split
-Nui-lua-nui-split-wiki-page	Nui-lua-nui-split.md	/## Wiki Page
-Nui-lua-nui-split-win-options	Nui-lua-nui-split.md	/### `win_options`
-Nui-lua-nui-table-bufnr	Nui-lua-nui-table.md	/### `bufnr`
-Nui-lua-nui-table-columns	Nui-lua-nui-table.md	/### `columns`
-Nui-lua-nui-table-data	Nui-lua-nui-table.md	/### `data`
-Nui-lua-nui-table-methods	Nui-lua-nui-table.md	/## Methods
-Nui-lua-nui-table-ns-id	Nui-lua-nui-table.md	/### `ns_id`
-Nui-lua-nui-table-nuitable	Nui-lua-nui-table.md	/# NuiTable
-Nui-lua-nui-table-options	Nui-lua-nui-table.md	/## Options
-Nui-lua-nui-table-tbl-get-cell	Nui-lua-nui-table.md	/### `tbl:get_cell`
-Nui-lua-nui-table-tbl-refresh-cell	Nui-lua-nui-table.md	/### `tbl:refresh_cell`
-Nui-lua-nui-table-tbl-render	Nui-lua-nui-table.md	/### `tbl:render`
-Nui-lua-nui-table-wiki-page	Nui-lua-nui-table.md	/## Wiki Page
-Nui-lua-nui-text-content	Nui-lua-nui-text.md	/### `content`
-Nui-lua-nui-text-extmark	Nui-lua-nui-text.md	/### `extmark`
-Nui-lua-nui-text-methods	Nui-lua-nui-text.md	/## Methods
-Nui-lua-nui-text-nuitext	Nui-lua-nui-text.md	/# NuiText
-Nui-lua-nui-text-parameters	Nui-lua-nui-text.md	/## Parameters
-Nui-lua-nui-text-text-content	Nui-lua-nui-text.md	/### `text:content`
-Nui-lua-nui-text-text-highlight	Nui-lua-nui-text.md	/### `text:highlight`
-Nui-lua-nui-text-text-length	Nui-lua-nui-text.md	/### `text:length`
-Nui-lua-nui-text-text-render	Nui-lua-nui-text.md	/### `text:render`
-Nui-lua-nui-text-text-render-char	Nui-lua-nui-text.md	/### `text:render_char`
-Nui-lua-nui-text-text-set	Nui-lua-nui-text.md	/### `text:set`
-Nui-lua-nui-text-text-width	Nui-lua-nui-text.md	/### `text:width`
-Nui-lua-nui-text-wiki-page	Nui-lua-nui-text.md	/## Wiki Page
-Nui-lua-nui-tree-buf-options	Nui-lua-nui-tree.md	/### `buf_options`
-Nui-lua-nui-tree-bufnr	Nui-lua-nui-tree.md	/### `bufnr`
-Nui-lua-nui-tree-children	Nui-lua-nui-tree.md	/#### `children`
-Nui-lua-nui-tree-data	Nui-lua-nui-tree.md	/#### `data`
-Nui-lua-nui-tree-get-node-id	Nui-lua-nui-tree.md	/### `get_node_id`
-Nui-lua-nui-tree-methods	Nui-lua-nui-tree.md	/### Methods
-Nui-lua-nui-tree-node-collapse	Nui-lua-nui-tree.md	/#### `node:collapse`
-Nui-lua-nui-tree-node-expand	Nui-lua-nui-tree.md	/#### `node:expand`
-Nui-lua-nui-tree-node-get-child-ids	Nui-lua-nui-tree.md	/#### `node:get_child_ids`
-Nui-lua-nui-tree-node-get-depth	Nui-lua-nui-tree.md	/#### `node:get_depth`
-Nui-lua-nui-tree-node-get-id	Nui-lua-nui-tree.md	/#### `node:get_id`
-Nui-lua-nui-tree-node-get-parent-id	Nui-lua-nui-tree.md	/#### `node:get_parent_id`
-Nui-lua-nui-tree-node-has-children	Nui-lua-nui-tree.md	/#### `node:has_children`
-Nui-lua-nui-tree-node-is-expanded	Nui-lua-nui-tree.md	/#### `node:is_expanded`
-Nui-lua-nui-tree-nodes	Nui-lua-nui-tree.md	/### `nodes`
-Nui-lua-nui-tree-ns-id	Nui-lua-nui-tree.md	/### `ns_id`
-Nui-lua-nui-tree-nuitree	Nui-lua-nui-tree.md	/# NuiTree
-Nui-lua-nui-tree-nuitree-node	Nui-lua-nui-tree.md	/## NuiTree.Node
-Nui-lua-nui-tree-options	Nui-lua-nui-tree.md	/## Options
-Nui-lua-nui-tree-parameters	Nui-lua-nui-tree.md	/### Parameters
-Nui-lua-nui-tree-prepare-node	Nui-lua-nui-tree.md	/### `prepare_node`
-Nui-lua-nui-tree-tree-add-node	Nui-lua-nui-tree.md	/### `tree:add_node`
-Nui-lua-nui-tree-tree-get-node	Nui-lua-nui-tree.md	/### `tree:get_node`
-Nui-lua-nui-tree-tree-get-nodes	Nui-lua-nui-tree.md	/### `tree:get_nodes`
-Nui-lua-nui-tree-tree-remove-node	Nui-lua-nui-tree.md	/### `tree:remove_node`
-Nui-lua-nui-tree-tree-render	Nui-lua-nui-tree.md	/### `tree:render`
-Nui-lua-nui-tree-tree-set-nodes	Nui-lua-nui-tree.md	/### `tree:set_nodes`
-Nui-lua-nui-tree-wiki-page	Nui-lua-nui-tree.md	/## Wiki Page
-Nui-menu-lua-nui-menu	Nui.md	/### \[Menu\](lua\/nui\/menu)
-Nui-nui-nvim	Nui.md	/# nui.nvim
-Nui-nui-object	Nui.md	/#### `nui.object`
-Nui-nuiline-lua-nui-line	Nui.md	/### \[NuiLine\](lua\/nui\/line)
-Nui-nuitable-lua-nui-table	Nui.md	/### \[NuiTable\](lua\/nui\/table)
-Nui-nuitext-lua-nui-text	Nui.md	/### \[NuiText\](lua\/nui\/text)
-Nui-nuitree-lua-nui-tree	Nui.md	/### \[NuiTree\](lua\/nui\/tree)
-Nui-popup-lua-nui-popup	Nui.md	/### \[Popup\](lua\/nui\/popup)
-Nui-requirements	Nui.md	/## Requirements
-Nui-split-lua-nui-split	Nui.md	/### \[Split\](lua\/nui\/split)
-Prettier-installation	Prettier.md	/## Installation
-Prettier-license	Prettier.md	/## License
-Prettier-prettier-nvim	Prettier.md	/# prettier.nvim
-Prettier-requirements	Prettier.md	/## Requirements
-Prettier-setting-up-null-ls	Prettier.md	/### Setting up `null-ls`
-Prettier-setting-up-prettier-nvim	Prettier.md	/### Setting Up `prettier.nvim`
-Prettier-setup	Prettier.md	/## Setup
-Prettier-setup-without-lsp	Prettier.md	/## Setup without LSP
-PromiseAsync-as-a-library-from-luarocks	PromiseAsync.md	/#### As a library from Luarocks
-PromiseAsync-as-a-plugin-for-neovim-platform	PromiseAsync.md	/#### As a plugin for Neovim platform
-PromiseAsync-async	PromiseAsync.md	/### async
-PromiseAsync-credit	PromiseAsync.md	/## Credit
-PromiseAsync-customize-eventloop	PromiseAsync.md	/### Customize EventLoop
-PromiseAsync-demo-js	PromiseAsync.md	/#### demo.js
-PromiseAsync-demo-lua	PromiseAsync.md	/#### demo.lua
-PromiseAsync-demonstration	PromiseAsync.md	/## Demonstration
-PromiseAsync-development	PromiseAsync.md	/## Development
-PromiseAsync-documentation	PromiseAsync.md	/## Documentation
-PromiseAsync-features	PromiseAsync.md	/## Features
-PromiseAsync-feedback	PromiseAsync.md	/## Feedback
-PromiseAsync-improve-completion-experience	PromiseAsync.md	/### Improve completion experience
-PromiseAsync-installation	PromiseAsync.md	/### Installation
-PromiseAsync-license	PromiseAsync.md	/## License
-PromiseAsync-neovim-tips	PromiseAsync.md	/### Neovim tips
-PromiseAsync-promise-async	PromiseAsync.md	/# promise-async
-PromiseAsync-quickstart	PromiseAsync.md	/## Quickstart
-PromiseAsync-requirements	PromiseAsync.md	/### Requirements
-PromiseAsync-run-tests	PromiseAsync.md	/### Run tests
-PromiseAsync-script	PromiseAsync.md	/### Script
-PromiseAsync-summary	PromiseAsync.md	/### Summary
+cmp-buffer-all-buffers	cmp-buffer.md	/##### All buffers
+cmp-buffer-cmp-buffer	cmp-buffer.md	/# cmp-buffer
+cmp-buffer-configuration	cmp-buffer.md	/## Configuration
+cmp-buffer-get-bufnrs-type-fun-number	cmp-buffer.md	/### get_bufnrs (type: fun(): number\[\])
+cmp-buffer-indexing-and-how-to-optimize-it	cmp-buffer.md	/## Indexing and how to optimize it
+cmp-buffer-indexing-batch-size-type-number	cmp-buffer.md	/### indexing_batch_size (type: number)
+cmp-buffer-indexing-interval-type-number	cmp-buffer.md	/### indexing_interval (type: number)
+cmp-buffer-keyword-length-type-number	cmp-buffer.md	/### keyword_length (type: number)
+cmp-buffer-keyword-pattern-type-string	cmp-buffer.md	/### keyword_pattern (type: string)
+cmp-buffer-locality-bonus-comparator-distance-based-sorting	cmp-buffer.md	/## Locality bonus comparator (distance-based sorting)
+cmp-buffer-max-indexed-line-length-type-number	cmp-buffer.md	/### max_indexed_line_length (type: number)
+cmp-buffer-performance-on-large-text-files	cmp-buffer.md	/### Performance on large text files
+cmp-buffer-setup	cmp-buffer.md	/## Setup
+cmp-buffer-visible-buffers	cmp-buffer.md	/##### Visible buffers
+cmp-path-cmp-path	cmp-path.md	/# cmp-path
+cmp-path-configuration	cmp-path.md	/## Configuration
+cmp-path-get-cwd-type-function	cmp-path.md	/### get_cwd (type: function)
+cmp-path-label-trailing-slash-type-boolean	cmp-path.md	/### label_trailing_slash (type: boolean)
+cmp-path-setup	cmp-path.md	/# Setup
+cmp-path-trailing-slash-type-boolean	cmp-path.md	/### trailing_slash (type: boolean)
+cmp_luasnip-cmp-luasnip	cmp_luasnip.md	/# cmp_luasnip
+friendly-snippets-add-snippets-from-a-framework-to-a-filetype	friendly-snippets.md	/## Add snippets from a framework to a filetype.
+friendly-snippets-credits	friendly-snippets.md	/## Credits
+friendly-snippets-excluding-snippets	friendly-snippets.md	/## Excluding snippets
+friendly-snippets-friendly-snippets	friendly-snippets.md	/# Friendly Snippets
+friendly-snippets-html	friendly-snippets.md	/### HTML
+friendly-snippets-install	friendly-snippets.md	/## Install
+friendly-snippets-js	friendly-snippets.md	/### JS
+friendly-snippets-showcase	friendly-snippets.md	/## Showcase
+friendly-snippets-thanks-to-all-contributors	friendly-snippets.md	/## Thanks to all contributors
+friendly-snippets-todo	friendly-snippets.md	/## TODO
+friendly-snippets-usage	friendly-snippets.md	/## Usage
+friendly-snippets-with-coc-nvim	friendly-snippets.md	/### With coc.nvim
+friendly-snippets-with-lazy-nvim	friendly-snippets.md	/### With Lazy.nvim
+friendly-snippets-with-packer	friendly-snippets.md	/### With Packer
+friendly-snippets-with-vim-plug	friendly-snippets.md	/### With vim-plug
+lspkind.nvim-configuration	lspkind.nvim.md	/## Configuration
+lspkind.nvim-lspkind-nvim	lspkind.nvim.md	/# lspkind-nvim
+lspkind.nvim-option-1-vanilla-neovim-lsp	lspkind.nvim.md	/### Option 1: vanilla Neovim LSP
+lspkind.nvim-option-2-nvim-cmp-https-github-com-hrsh7th-nvim-cmp	lspkind.nvim.md	/### Option 2: \[nvim-cmp\](https:\/\/github.com\/hrsh7th\/nvim-cmp)
+lspkind.nvim-related-lsp-plugins	lspkind.nvim.md	/## Related LSP plugins
+lspkind.nvim-requirements	lspkind.nvim.md	/## Requirements
+mason-tool-installer.nvim-commands	mason-tool-installer.nvim.md	/## Commands
+mason-tool-installer.nvim-configuration	mason-tool-installer.nvim.md	/## Configuration
+mason-tool-installer.nvim-events	mason-tool-installer.nvim.md	/## Events
+mason-tool-installer.nvim-installation	mason-tool-installer.nvim.md	/## Installation
+mason-tool-installer.nvim-mason-tool-installer	mason-tool-installer.nvim.md	/# mason-tool-installer
+mason-tool-installer.nvim-requirements	mason-tool-installer.nvim.md	/## Requirements
+mason-tool-installer.nvim-suggestions-complaints-help	mason-tool-installer.nvim.md	/## Suggestions \/ Complaints \/ Help
+nvim-highlight-colors-commands	nvim-highlight-colors.md	/## Commands
+nvim-highlight-colors-features	nvim-highlight-colors.md	/## Features
+nvim-highlight-colors-nvim-highlight-colors	nvim-highlight-colors.md	/# nvim-highlight-colors
+nvim-highlight-colors-options	nvim-highlight-colors.md	/## Options
+nvim-highlight-colors-render-modes	nvim-highlight-colors.md	/### Render modes
+nvim-highlight-colors-usage	nvim-highlight-colors.md	/## Usage
+nvim-lint-alternatives	nvim-lint.md	/## Alternatives
+nvim-lint-available-linters	nvim-lint.md	/## Available Linters
+nvim-lint-custom-linters	nvim-lint.md	/## Custom Linters
+nvim-lint-customize-built-in-linters	nvim-lint.md	/## Customize built-in linters
+nvim-lint-development	nvim-lint.md	/## Development ☢️
+nvim-lint-display-configuration	nvim-lint.md	/## Display configuration
+nvim-lint-from-errorformat	nvim-lint.md	/### from_errorformat
+nvim-lint-from-pattern	nvim-lint.md	/### from_pattern
+nvim-lint-get-the-current-running-linters-for-your-buffer	nvim-lint.md	/## Get the current running linters for your buffer
+nvim-lint-installation	nvim-lint.md	/## Installation
+nvim-lint-motivation-goals	nvim-lint.md	/## Motivation & Goals
+nvim-lint-nvim-lint	nvim-lint.md	/# nvim-lint
+nvim-lint-run-tests	nvim-lint.md	/### Run tests
+nvim-lint-usage	nvim-lint.md	/## Usage
+nvim-lsp-file-operations-contributing	nvim-lsp-file-operations.md	/## Contributing
+nvim-lsp-file-operations-features	nvim-lsp-file-operations.md	/## Features
+nvim-lsp-file-operations-for-neo-tree-users	nvim-lsp-file-operations.md	/#### For Neo-tree Users
+nvim-lsp-file-operations-for-nvim-tree-users	nvim-lsp-file-operations.md	/#### For Nvim-tree Users
+nvim-lsp-file-operations-installation	nvim-lsp-file-operations.md	/## Installation
+nvim-lsp-file-operations-nvim-lsp-file-operations	nvim-lsp-file-operations.md	/# nvim-lsp-file-operations
+nvim-lsp-file-operations-setup	nvim-lsp-file-operations.md	/## Setup
+nvim-lsp-file-operations-using-lazy-nvim-https-github-com-folke-lazy-nvim	nvim-lsp-file-operations.md	/### Using \[lazy.nvim\](https:\/\/github.com\/folke\/lazy.nvim)
+nvim-lsp-file-operations-using-packer-nvim-https-github-com-wbthomason-packer-nvim	nvim-lsp-file-operations.md	/### Using \[packer.nvim\](https:\/\/github.com\/wbthomason\/packer.nvim)
+nvim-ts-autotag-a-note-on-lazy-loading	nvim-ts-autotag.md	/### A note on lazy loading
+nvim-ts-autotag-contributors	nvim-ts-autotag.md	/## Contributors
+nvim-ts-autotag-enable-update-on-insert	nvim-ts-autotag.md	/### Enable update on insert
+nvim-ts-autotag-extending-the-default-config	nvim-ts-autotag.md	/### Extending the default config
+nvim-ts-autotag-nvim-ts-autotag	nvim-ts-autotag.md	/# nvim-ts-autotag
+nvim-ts-autotag-setup	nvim-ts-autotag.md	/## Setup
+nvim-ts-autotag-sponsor	nvim-ts-autotag.md	/## Sponsor
+nvim-ts-autotag-usage	nvim-ts-autotag.md	/## Usage
+nvim-web-devicons-contributing	nvim-web-devicons.md	/## Contributing
+nvim-web-devicons-get-all-icons	nvim-web-devicons.md	/### Get all icons
+nvim-web-devicons-get-icon	nvim-web-devicons.md	/### Get Icon
+nvim-web-devicons-get-icon-and-color-code	nvim-web-devicons.md	/### Get icon and color code
+nvim-web-devicons-getting-and-setting-icons-by-filetype	nvim-web-devicons.md	/### Getting and setting icons by filetype
+nvim-web-devicons-installation	nvim-web-devicons.md	/## Installation
+nvim-web-devicons-known-issues	nvim-web-devicons.md	/## Known Issues
+nvim-web-devicons-my-setup-overrides-are-not-applied	nvim-web-devicons.md	/### My `setup` Overrides Are Not Applied
+nvim-web-devicons-notice	nvim-web-devicons.md	/# Notice
+nvim-web-devicons-nvim-web-devicons	nvim-web-devicons.md	/# Nvim-web-devicons
+nvim-web-devicons-requirements	nvim-web-devicons.md	/## Requirements
+nvim-web-devicons-set-an-icon	nvim-web-devicons.md	/### Set an icon
+nvim-web-devicons-setup	nvim-web-devicons.md	/### Setup
+nvim-web-devicons-usage	nvim-web-devicons.md	/## Usage
+nvim-web-devicons-variants	nvim-web-devicons.md	/### Variants
+nvim-web-devicons-viewing	nvim-web-devicons.md	/### Viewing
+nvim-web-devicons-windows-and-wsl-not-rendering-icons-properly-on-some-terminals	nvim-web-devicons.md	/### Windows and WSL not rendering icons properly on some terminals
+telescope-fzf-native.nvim-benchmark	telescope-fzf-native.nvim.md	/## Benchmark
+telescope-fzf-native.nvim-c-interface	telescope-fzf-native.nvim.md	/### C Interface
+telescope-fzf-native.nvim-cmake-windows-linux-macos	telescope-fzf-native.nvim.md	/### CMake (Windows, Linux, MacOS)
+telescope-fzf-native.nvim-credit	telescope-fzf-native.nvim.md	/## Credit
+telescope-fzf-native.nvim-developer-interface	telescope-fzf-native.nvim.md	/## Developer Interface
+telescope-fzf-native.nvim-disclaimer	telescope-fzf-native.nvim.md	/## Disclaimer
+telescope-fzf-native.nvim-installation	telescope-fzf-native.nvim.md	/## Installation
+telescope-fzf-native.nvim-lazy-nvim	telescope-fzf-native.nvim.md	/#### lazy.nvim
+telescope-fzf-native.nvim-lua-interface	telescope-fzf-native.nvim.md	/### Lua Interface
+telescope-fzf-native.nvim-make-linux-macos-windows-with-mingw	telescope-fzf-native.nvim.md	/### Make (Linux, MacOS, Windows with MinGW)
+telescope-fzf-native.nvim-packer-nvim	telescope-fzf-native.nvim.md	/#### packer.nvim
+telescope-fzf-native.nvim-telescope-fzf-native-nvim	telescope-fzf-native.nvim.md	/# telescope-fzf-native.nvim
+telescope-fzf-native.nvim-telescope-setup-and-configuration	telescope-fzf-native.nvim.md	/## Telescope Setup and Configuration:
+telescope-fzf-native.nvim-todo	telescope-fzf-native.nvim.md	/### TODO
+telescope-fzf-native.nvim-vim-plug	telescope-fzf-native.nvim.md	/#### vim-plug

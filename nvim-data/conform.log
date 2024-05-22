@@ -1,1685 +1,195 @@
-12:33:26[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:49:36[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:33:33[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:49:44[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:33:34[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:49:52[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:34:27[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:50:26[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:34:29[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:50:33[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:34:48[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:50:37[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:35:15[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:51:54[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:35:28[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:53:11[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-15:43:03[ERROR] Formatter 'prettier' error: [error] C:\code\react-course\src\components\UserFavoriteFoods.jsx: SyntaxError: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (8:7)
-[error]    6 |     null,
-[error]    7 |       <span>Favorite Foods:</span>
-[error] >  8 |       <br />
-[error]      |       ^
-[error]    9 |       <ul>
-[error]   10 |         <li>Sushi</li>
-[error]   11 |         <li>Pizza</li>
-
-15:45:40[ERROR] Formatter 'prettier' error: [error] C:\code\react-course\src\components\UserFavoriteFoods.jsx: SyntaxError: Unexpected token (13:3)
-[error]   11 |       </ul>
-[error]   12 |     </section>,
-[error] > 13 |   )
-[error]      |   ^
-[error]   14 | }
-[error]   15 |
-
-15:46:11[ERROR] Formatter 'prettier' error: [error] C:\code\react-course\src\components\UserFavoriteFoods.jsx: SyntaxError: Unexpected token (13:3)
-[error]   11 |       </ul>
-[error]   12 |     </section>,
-[error] > 13 |   )
-[error]      |   ^
-[error]   14 | }
-[error]   15 |
-
-16:10:03[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:10:15[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:10:20[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:04:08[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:04:16[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:04:26[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:07:59[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:08:11[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:10:19[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:10:33[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:11:46[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:15:17[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:17:13[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:17:25[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:12:38[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:12:47[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:55:54[ERROR] Formatter 'prettier' error: [error] C:\code\react-course\src\components\UserProfile.jsx: SyntaxError: Unexpected token, expected "from" (1:18)
-[error] > 1 | import PropTypes form "prop-types"
-[error]     |                  ^
-[error]   2 |
-[error]   3 | import { UserFavoriteFoods } from "./UserFavoriteFoods";
-[error]   4 | import { UserUsername } from "./UserUsername";
-
-15:56:00[ERROR] Formatter 'prettier' error: [error] C:\code\react-course\src\components\UserProfile.jsx: SyntaxError: Unexpected token, expected "from" (1:18)
-[error] > 1 | import PropTypes form "prop-types";
-[error]     |                  ^
-[error]   2 |
-[error]   3 | import{ UserFavoriteFoods } from "./UserFavoriteFoods";
-[error]   4 | import { UserUsername } from "./UserUsername";
-
-15:58:04[ERROR] Formatter 'prettier' error: [error] C:\code\react-course\src\App.jsx: SyntaxError: Unexpected token (9:17)
-[error]    7 |       <UserProfile
-[error]    8 |         //NOTE: Props to get data from diff components age={21}, favoriteFoods= {[{name: "Sushi"}]}
-[error] >  9 |         username"Jhon"
-[error]      |                 ^
-[error]   10 |         age={21}
-[error]   11 |         favoriteFoods={[
-[error]   12 |           {
-
-16:00:49[ERROR] Formatter 'prettier' error: [error] C:\code\react-course\src\components\UserProfile.jsx: SyntaxError: Unexpected token (26:1)
-[error]   24 |   username: PropTypes.string,
-[error]   25 |   age: PropTypes.
-[error] > 26 | };
-[error]      | ^
-[error]   27 |
-
-21:44:41[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:44:51[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:14:59[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:15:10[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:36:11[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:36:32[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:44:25[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:44:27[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:47:18[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:48:23[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:48:38[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:50:33[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:51:06[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:53:14[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:57:59[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-07:58:20[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-08:00:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-08:00:43[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-08:01:28[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-08:56:15[ERROR] Formatter 'prettier' error: [error] C:\code\sales\nativewind-env.d.ts: SyntaxError: '>' expected. (1:12)
-[error] > 1 | <reference types="nativewind/types" />
-[error]     |            ^
-[error]   2 |
-
-09:46:27[ERROR] Formatter 'prettier' error: [error] C:\code\react\src\components\TodoInput.jsx: SyntaxError: Missing semicolon. (9:21)
-[error]    7 |     <header>
-[error]    8 |       <input placeholder="Enter Todo" value={todoValue} onChange={(e) => {
-[error] >  9 |         setTodoValue{e.target.value}
-[error]      |                     ^
-[error]   10 |       }} />
-[error]   11 |       <button
-[error]   12 |         onClick={() => {
-
-10:12:13[ERROR] Formatter 'prettier' error: [error] C:\code\react\src\components\TodoInput.jsx: SyntaxError: Unexpected token (17:25)
-[error]   15 |       <button onClick={() => {
-[error]   16 | handleTodo(todoValue)
-[error] > 17 |         setTodoValue={""}
-[error]      |                         ^
-[error]   18 |       }}>
-[error]   19 |         Add
-[error]   20 |       </button>
-
-10:19:14[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:23:13[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:25:11[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:26:43[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:27:15[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:29:07[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:30:20[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:45:21[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:45:39[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:49:48[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:59:28[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:59:39[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-13:06:51[ERROR] Formatter 'prettier' error: [error] C:\code\sales\app\(tabs)\index.tsx: SyntaxError: ',' expected. (7:21)
-[error]    5 |   return (
-[error]    6 |     <View
-[error] >  7 |       style={{styles.text}}
-[error]      |                     ^
-[error]    8 |     >
-[error]    9 |       <Text>Hello Mom</Text>
-[error]   10 |     </View>
-
-13:12:14[ERROR] Formatter 'prettier' error: [error] C:\code\sales\app\(tabs)\index.tsx: SyntaxError: '>' expected. (10:18)
-[error]    8 |       <Text style={styles.text}>Hello Mom</Text>
-[error]    9 |       <Link href={'/details'} asChild>
-[error] > 10 |         <Button/ title="Go to details">
-[error]      |                  ^
-[error]   11 |       </Link>
-[error]   12 |     </View>
-[error]   13 |   );
-
-13:32:36[ERROR] Formatter 'prettier' error: [error] C:\code\sales\utils\services.tsx: SyntaxError: ',' expected. (20:2)
-[error]   18 |     //error reading value
-[error]   19 |   }
-[error] > 20 | });
-[error]      |  ^
-[error]   21 |
-
-13:32:49[ERROR] Formatter 'prettier' error: [error] C:\code\sales\utils\services.tsx: SyntaxError: ',' expected. (20:2)
-[error]   18 |     //error reading value
-[error]   19 |   }
-[error] > 20 | });
-[error]      |  ^
-[error]   21 |
-
-23:36:07[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:36:18[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:40:41[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:41:29[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:41:51[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:42:03[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:42:16[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:43:09[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:43:34[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:45:15[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-23:45:26[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:40:05[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:40:50[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:41:30[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:42:21[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:43:08[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:43:18[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:43:39[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:43:51[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:34:43[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:34:55[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:35:07[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:35:11[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:35:17[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:35:28[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:35:34[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:45:00[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:46:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:46:30[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:46:38[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:46:41[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:49:16[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:49:30[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:56:51[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:57:01[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:57:16[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:57:38[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:15:41[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:16:11[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:16:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:16:48[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:17:28[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:17:29[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:17:32[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:17:38[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:17:47[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:21:10[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:21:33[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:21:44[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:21:55[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:22:02[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:22:16[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:22:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:22:26[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:22:29[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:22:43[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:22:55[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:23:39[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:23:44[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:39:47[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:39:58[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:29:41[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:50:45[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:07:45[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:08:00[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:08:22[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:13:11[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:13:30[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:13:36[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:13:41[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:45:13[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:57:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:38:30[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:38:42[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:39:57[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:40:23[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:40:25[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:42:16[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:42:36[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:42:44[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:43:52[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:43:55[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:45:29[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:45:54[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:46:37[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:49:06[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:49:34[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:50:10[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:59:57[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:00:12[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:01:07[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:01:18[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:01:46[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:01:54[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:04:04[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:04:19[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:04:36[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:07:52[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:08:08[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:08:32[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:08:50[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:09:12[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:09:23[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:10:07[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:10:22[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:10:51[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:13:31[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:16:03[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:20:18[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:21:00[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:21:26[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:21:35[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:21:44[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:22:15[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:24:55[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:25:44[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:26:30[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:26:33[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:27:37[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:27:45[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:28:47[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:28:56[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:30:21[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:31:27[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:31:35[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:32:00[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:32:21[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:32:35[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:34:31[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:35:04[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:35:27[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:35:31[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-15:36:34[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:27:42[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:28:23[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:30:06[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:30:53[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:31:42[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:34:41[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:37:39[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-16:37:51[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:05:18[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:05:26[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:10:18[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:10:27[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:13:08[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:14:12[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:16:59[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:17:09[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:18:35[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:18:39[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:18:53[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:19:09[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:19:22[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:53:57[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:55:57[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:56:06[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:57:04[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:58:52[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:59:09[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-20:59:52[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:02:02[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:02:38[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:02:56[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:04:03[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:04:05[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:08:54[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:10:01[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:10:46[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:11:01[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:13:52[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:52:41[ERROR] Formatter 'prettier' error: [error] C:\code\StickerSmash\App.js: SyntaxError: Missing catch or finally clause. (66:5)
-[error]   64 |   //HACK: 
-[error]   65 |   const onSaveImageAsync = async() => {
-[error] > 66 |     try {
-[error]      |     ^
-[error]   67 |       const localUri = await captureRef(imageRef, {height: 440, quality: 1,})
-[error]   68 |     }
-[error]   69 |   }
-
-22:09:03[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:09:09[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:09:25[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:09:43[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:09:59[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:10:35[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:10:44[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:10:56[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:11:23[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:13:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:14:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:14:18[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-22:36:20[ERROR] Formatter 'prettier' error: [error] C:\code\Sales\components\Inputs.jsx: SyntaxError: Unexpected token, expected "," (20:5)
-[error]   18 |     borderWidth: 1,
-[error]   19 |     borderColor: "#e1e1e1"
-[error] > 20 |     backgroundColor: "#eee",
-[error]      |     ^
-[error]   21 |   },
-[error]   22 | });
-[error]   23 |
-
-11:52:08[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:52:26[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:04:56[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:48[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:59[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:09:12[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:12:35[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:12:42[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:12:50[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:16:16[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:23:22[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:23:39[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:41:48[ERROR] Formatter 'prettier' error: [error] C:\code\react-app\src\App.tsx: SyntaxError: ':' expected. (16:7)
-[error]   14 |       {
-[error]   15 |         languages.length === 0 ? <p>There are not items.</p>
-[error] > 16 |       }
-[error]      |       ^
-[error]   17 |     </>
-[error]   18 |   )
-[error]   19 | }
-
-12:53:04[ERROR] Formatter 'prettier' error: [error] C:\code\react-app\src\App.tsx: SyntaxError: Expression expected. (15:49)
-[error]   13 |         <ul>
-[error]   14 |           {languages.map((lang, index) => (
-[error] > 15 |             <li className="py-2" onClick={() => } key={index}>
-[error]      |                                                 ^
-[error]   16 |               {lang}
-[error]   17 |             </li>
-[error]   18 |           ))}
-
-12:53:18[ERROR] Formatter 'prettier' error: [error] C:\code\react-app\src\App.tsx: SyntaxError: Expression expected. (15:49)
-[error]   13 |         <ul>
-[error]   14 |           {languages.map((lang, index) => (
-[error] > 15 |             <li className="py-2" onClick={() => } key={index}>
-[error]      |                                                 ^
-[error]   16 |               {lang}
-[error]   17 |             </li>
-[error]   18 |           ))}
-
-13:08:34[ERROR] Formatter 'prettier' error: [error] C:\code\react-app\src\App.tsx: SyntaxError: Expression expected. (5:3)
-[error]   3 |
-[error]   4 |   return (
-[error] > 5 |   )
-[error]     |   ^
-[error]   6 | }
-[error]   7 |
-[error]   8 | export default App
-
-13:23:37[ERROR] Formatter 'prettier' error: [error] C:\code\react-app\src\App.tsx: SyntaxError: JSX expressions must have one parent element. (5:1)
-[error]   3 | function App() {
-[error]   4 |   return (
-[error] > 5 | <ListComponent />
-[error]     | ^
-[error]   6 | <ListComponent />
-[error]   7 |   )
-[error]   8 | }
-
-13:35:20[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-14:08:45[WARN] Formatter 'prettier' timeout
-14:17:31[WARN] Formatter 'prettier' timeout
-17:29:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:14:37[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:15:47[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:15:51[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:16:45[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-21:17:06[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:30:59[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:31:36[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:32:25[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:32:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:35:43[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:37:34[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:37:36[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:38:21[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:38:32[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:38:35[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:38:42[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:38:52[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:39:04[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:41:44[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:42:16[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:45:33[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:45:50[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:46:38[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:47:15[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:47:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:47:35[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:47:40[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:48:48[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:48:57[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:49:08[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:49:29[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:49:48[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:49:51[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:49:58[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:50:06[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:50:51[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:50:55[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:51:15[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:51:20[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:51:26[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:51:31[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:51:46[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:52:09[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:52:16[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:52:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:52:46[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:52:52[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:53:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:53:11[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:53:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:53:24[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:55:00[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:55:49[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:55:53[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:56:20[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:56:56[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:56:57[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:57:21[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:57:23[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:57:31[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:57:35[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:58:58[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:59:06[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:59:15[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:59:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:59:37[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:59:50[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-10:59:54[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:56:56[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:00:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:57:38[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:00:13[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+00:57:49[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:01:57[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+01:00:28[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:02:38[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+01:10:09[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:03:43[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+01:10:12[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:04:07[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+01:10:41[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:04:17[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+01:10:44[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:04:21[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+01:12:25[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:04:25[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+01:12:40[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:04:31[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+01:13:49[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:04:35[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+01:14:04[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:04:44[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:01:11[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:04:52[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:02:11[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:05:00[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:03:42[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:47:53[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:03:43[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:48:03[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:06:39[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:48:17[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:08:20[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:48:22[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:08:22[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:48:31[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:09:38[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:48:41[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:09:40[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:48:56[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:14:38[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:49:28[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:15:13[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:49:38[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:40:40[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:49:49[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:41:53[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:50:06[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:44:24[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:50:15[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:45:31[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:50:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:47:24[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:50:23[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:48:17[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:50:29[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+12:48:19[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:50:36[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+16:49:05[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:50:44[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+16:50:42[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:50:50[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+16:54:10[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:50:58[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+16:54:12[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:51:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+16:55:23[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:51:09[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+16:55:27[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:51:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+16:55:35[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-11:51:42[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:51:55[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:52:06[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:52:14[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:52:23[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:52:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:52:33[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:53:46[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:53:57[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:54:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:54:12[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:54:18[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:54:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:54:33[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:54:45[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:54:53[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:55:55[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:56:02[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:56:06[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:56:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:56:48[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:56:52[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:57:01[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:57:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:57:26[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:57:40[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:57:50[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:57:56[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:58:02[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:58:08[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:58:38[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:58:47[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:58:56[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:59:13[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:59:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:59:29[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:59:35[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:59:42[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-11:59:45[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:00:43[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:00:48[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:00:52[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:01:13[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:01:22[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:01:28[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:01:31[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:01:48[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:01:56[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:02:14[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:02:21[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:02:40[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:02:46[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:03:12[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:03:31[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:03:36[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:03:41[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:03:43[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:04:37[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:06:12[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:06:28[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:06:32[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:06:41[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:06:44[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:06:58[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:07:11[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:07:15[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:07:22[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:07:36[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:07:40[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:07:55[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:11[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:14[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:20[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:42[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:49[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:53[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:08:57[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:09:40[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:09:45[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:09:58[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:10:36[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:11:11[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:11:17[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:11:25[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:11:45[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:11:49[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:11:57[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:12:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:12:10[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:12:20[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:12:35[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:12:42[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:13:36[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:13:46[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:13:56[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:14:18[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:14:27[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:15:06[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:15:15[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:15:30[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:16:08[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:16:18[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:18:46[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:19:47[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:20:24[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:21:43[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:21:52[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:22:07[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:22:22[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:22:40[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:22:49[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:22:52[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:22:58[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:23:30[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:23:35[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:24:11[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:24:31[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:25:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:25:21[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:25:47[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:26:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:27:36[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:27:47[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:27:59[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:28:39[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:28:47[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:28:52[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
-
-12:28:58[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
-operable program or batch file.
+17:32:29[ERROR] Formatter 'prettier' error: [error] C:\code\sales\src\components\Inputs.tsx: SyntaxError: JSX element 'input' has no corresponding closing tag. (57:6)
+[error]   55 | <div class="dark:bg-black/10">
+[error]   56 |   <label class="text-white">
+[error] > 57 |     <input class="dark:border-white-400/20 dark:scale-100 transition-all duration-500 ease-in-out dark:hover:scale-110 dark:checked:scale-100 w-10 h-10" type="checkbox">
+[error]      |      ^
+[error]   58 |   </label>
+[error]   59 | </div>
+[error]   60 |         </div>
 
-12:29:08[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+23:18:19[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:29:16[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+23:20:51[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:29:31[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+23:21:05[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:29:39[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+23:21:53[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:29:45[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+23:21:58[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:29:52[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+23:22:50[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:30:03[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+23:23:13[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-12:30:49[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+23:24:26[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-13:53:42[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+23:24:59[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-14:08:44[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+17:22:20[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-14:16:44[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+17:22:22[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-14:16:48[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+17:23:34[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-21:41:12[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+17:23:37[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-22:40:32[ERROR] Formatter 'prettier' error: 'C:\Users\John' is not recognized as an internal or external command,
+18:07:22[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-01:37:57[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+18:07:26[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-01:40:02[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+18:07:44[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-01:40:13[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
+18:15:20[ERROR] Formatter 'stylua' error: 'C:\Users\John' is not recognized as an internal or external command,
 operable program or batch file.
 
-16:35:06[WARN] Formatter 'prettier' timeout
-18:55:09[WARN] Formatter 'prettier' timeout
-18:59:45[WARN] Formatter 'prettier' timeout
-18:59:48[WARN] Formatter 'prettier' timeout

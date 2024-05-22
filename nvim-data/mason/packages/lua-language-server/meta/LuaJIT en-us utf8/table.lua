@@ -43,7 +43,7 @@ function table.insert(list, pos, value) end
 ---@nodiscard
 function table.maxn(table) end
 
----@version >5.3
+---@version >5.3, JIT
 ---
 ---Moves elements from table `a1` to table `a2`.
 ---```lua

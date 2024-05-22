@@ -1,5 +1,2 @@
-require('core.ChinerNvim')
-require('core.autocmds')
-require('core.mappings')
-require('core.options')
-require('core.lazy')
+require('jchael.core')
+require('jchael.lazy')

@@ -55,7 +55,14 @@ or with Lua autocmds (requires 0.7):
 ```lua
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {
   callback = function()
+
+    -- try_lint without arguments runs the linters defined in `linters_by_ft`
+    -- for the current filetype
     require("lint").try_lint()
+
+    -- You can call `try_lint` with a linter name or a list of names to always
+    -- run specific linters, independent of the `linters_by_ft` configuration
+    require("lint").try_lint("cspell")
   end,
 })
 ```
@@ -77,7 +84,7 @@ There is a generic linter called `compiler` that uses the `makeprg` and
 Other dedicated linters that are built-in are:
 
 | Tool                               | Linter name            |
-| ---------------------------------- | ---------------------  |
+| ---------------------------------- | ---------------------- |
 | Set via `makeprg`                  | `compiler`             |
 | [actionlint][actionlint]           | `actionlint`           |
 | [alex][alex]                       | `alex`                 |
@@ -107,6 +114,7 @@ Other dedicated linters that are built-in are:
 | [cue][cue]                         | `cue`                  |
 | [curlylint][curlylint]             | `curlylint`            |
 | [dash][dash]                       | `dash`                 |
+| [deadnix][deadnix]                 | `deadnix`              |
 | [deno][deno]                       | `deno`                 |
 | [djlint][djlint]                   | `djlint`               |
 | [dotenv-linter][dotenv-linter]     | `dotenv_linter`        |
@@ -180,6 +188,7 @@ Other dedicated linters that are built-in are:
 | [statix check][33]                 | `statix`               |
 | [stylelint][29]                    | `stylelint`            |
 | [Solhint][solhint]                 | `solhint`              |
+| [SwiftLint][swiftlint]             | `swiftlint`            |
 | [systemdlint][systemdlint]         | `systemdlint`          |
 | [typos][typos]                     | `typos`                |
 | [Nagelfar][nagelfar]               | `nagelfar`             |
@@ -191,11 +200,13 @@ Other dedicated linters that are built-in are:
 | [woke][woke]                       | `woke`                 |
 | [write-good][write-good]           | `write_good`           |
 | [yamllint][yamllint]               | `yamllint`             |
+| [tflint][tflint]                   | `tflint`               |
 | [tfsec][tfsec]                     | `tfsec`                |
 | [tlint][tlint]                     | `tlint`                |
 | [trivy][trivy]                     | `trivy`                |
 | [zsh][zsh]                         | `zsh`                  |
 | [quick-lint-js][quick-lint-js]     | `quick-lint-js`        |
+| [markdownlint-cli2][markdownlint-cli2] | `markdownlint-cli2`    |
 
 ## Custom Linters
 
@@ -309,7 +320,7 @@ defaults = {["source"] = "mylint-name"}
     that the end-column position is exclusive.
 
 
-## Customize built-in linter parameters
+## Customize built-in linters
 
 You can import a linter and modify its properties. An example:
 
@@ -321,6 +332,17 @@ phpcs.args = {
   '--report=json',
   '-'
 }
+```
+
+You can also post-process the diagnostics produced by a linter by wrapping it.
+For example, to change the severity of all diagnostics created by `cspell`:
+
+```lua
+local lint = require("lint")
+lint.linters.cspell = require("lint.util").wrap(lint.linters.cspell, function(diagnostic)
+  diagnostic.severity = vim.diagnostic.severity.HINT
+  return diagnostic
+end)
 ```
 
 
@@ -491,6 +513,7 @@ busted tests/
 [typos]: https://github.com/crate-ci/typos
 [joker]: https://github.com/candid82/joker
 [dash]: http://gondor.apana.org.au/~herbert/dash
+[deadnix]: https://github.com/astro/deadnix
 [salt-lint]: https://github.com/warpnet/salt-lint
 [quick-lint-js]: https://quick-lint-js.com
 [opa_check]: https://www.openpolicyagent.org/
@@ -499,5 +522,8 @@ busted tests/
 [systemdlint]: https://github.com/priv-kweihmann/systemdlint
 [htmlhint]: https://htmlhint.com/
 [markuplint]: https://markuplint.dev/
+[markdownlint-cli2]: https://github.com/DavidAnson/markdownlint-cli2
+[swiftlint]: https://github.com/realm/SwiftLint
+[tflint]: https://github.com/terraform-linters/tflint
 
 <!-- vim: set ft=markdown: -->

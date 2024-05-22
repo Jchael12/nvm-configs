@@ -1,1 +1,1 @@
-{"primary_source":{"id":"pkg:pypi\/isort@5.13.2","type":"registry+v1"},"name":"isort","schema_version":"1.1","links":{"share":{},"opt":{},"bin":{"isort.cmd":"venv\\Scripts\\isort.exe"}},"metrics":{"completion_time":1716053984870,"start_time":1716053977776},"secondary_sources":[]}
+{"name":"isort","primary_source":{"id":"pkg:pypi\/isort@5.13.2","type":"registry+v1"},"links":{"bin":{"isort.cmd":"venv\\Scripts\\isort.exe"},"share":{},"opt":{}},"schema_version":"1.1","metrics":{"start_time":1716222653299,"completion_time":1716222663013},"secondary_sources":[]}
