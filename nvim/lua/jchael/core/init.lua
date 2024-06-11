@@ -1,2 +1,2 @@
-require('jchael.core.options')
 require('jchael.core.mappings')
+require('jchael.core.options')

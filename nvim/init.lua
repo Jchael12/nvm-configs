@@ -1,2 +1,2 @@
-require('jchael.core')
-require('jchael.lazy')
+require("jchael.core")
+require("jchael.lazy")
