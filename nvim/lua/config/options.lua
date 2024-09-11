@@ -27,7 +27,7 @@ opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 opt.smartindent = true
-opt.wrap = true
+opt.wrap = false
 
 -- search settings
 opt.ignorecase = true

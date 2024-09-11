@@ -1,6 +1,12 @@
 return {
   -- messages, cmdline and the popupmenu
   {
+    "folke/twilight.nvim",
+    opts = {
+      context = 8,
+    },
+  },
+  {
     "folke/noice.nvim",
     opts = function(_, opts)
       table.insert(opts.routes, {

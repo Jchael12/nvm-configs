@@ -61,6 +61,10 @@ key("n", "<C-_>", function()
   util.terminal(nil, { border = "rounded" })
 end, { desc = "toggle terminal with border" })
 
+-- Twilight Plugin
+key("n", "<leader>t", "<cmd>Twilight<cr>", { desc = "Enable Twilight" })
+
+key("n", "<leader>z", "<cmd>ZenMode<cr>", { desc = "Enable Zen Mode" })
 -- floating terminal
 -- local lazyterm = function()
 --   util.terminal(nil, { cwd = util.root() })
