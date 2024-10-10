@@ -1,21 +1,21 @@
 return {
   {
-    "craftzdog/solarized-osaka.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require("solarized-osaka").setup({
-        transparent = true,
-        styles = {
-          floats = "transparent",
-          sidebars = "transparent",
-          comments = { italic = true },
-          keywords = { italic = false },
-          functions = { italic = false },
-          variables = { italic = false },
-        },
-      })
-    end,
+    -- "craftzdog/solarized-osaka.nvim",
+    -- lazy = false,
+    -- priority = 1000,
+    -- config = function()
+    --   require("solarized-osaka").setup({
+    --     transparent = true,
+    --     styles = {
+    --       floats = "transparent",
+    --       sidebars = "transparent",
+    --       comments = { italic = true },
+    --       keywords = { italic = false },
+    --       functions = { italic = false },
+    --       variables = { italic = false },
+    --     },
+    --   })
+    -- end,
     --
     -- catppuccin original
     -- "catppuccin/nvim",
@@ -93,5 +93,30 @@ return {
     --     },
     --   })
     -- end,
+    --
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      style = "moon",
+      transparent = true,
+    },
+    --
+    --"yorumicolors/yorumi.nvim",
+    --lazy = false,
+    --priority = 1000,
+    --
+    -- "nobbmaestro/nvim-andromeda",
+    -- dependencies = {
+    --   "tjdevries/colorbuddy.nvim",
+    --   branch = "dev",
+    -- },
+    -- config = function()
+    --   require("andromeda").setup({
+    --     preset = "andromeda",
+    --     transparent_bg = true,
+    --   })
+    -- end,
+    --
   },
 }

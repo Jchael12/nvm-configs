@@ -65,6 +65,7 @@ end, { desc = "toggle terminal with border" })
 key("n", "<leader>t", "<cmd>Twilight<cr>", { desc = "Enable Twilight" })
 
 key("n", "<leader>z", "<cmd>ZenMode<cr>", { desc = "Enable Zen Mode" })
+
 -- floating terminal
 -- local lazyterm = function()
 --   util.terminal(nil, { cwd = util.root() })

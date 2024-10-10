@@ -1,6 +1,5 @@
 return {
   { "nvim-treesitter/playground", cmd = "TSPlaygroundToggle" },
-
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
@@ -9,15 +8,16 @@ return {
         "cmake",
         "cpp",
         "css",
+        "fish",
         "gitignore",
         "go",
         "graphql",
         "http",
         "java",
         "php",
+        "rust",
         "scss",
         "sql",
-        "dart",
       },
 
       -- matchup = {
