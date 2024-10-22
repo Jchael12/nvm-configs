@@ -27,96 +27,34 @@ return {
     --   })
     -- end,
     --
-    -- "scottmckendry/cyberdream.nvim",
-    -- lazy = false,
-    -- priority = 1000,
-    -- config = function()
-    --   require("cyberdream").setup({
-    --     transparent = true,
-    --     hide_fillchars = true,
-    --     borderless_telescope = { border = true, style = "flat" },
-    --     terminal_colors = true,
-    --     theme = {
-    --       variant = "auto",
-    --     },
-    --     extensions = {
-    --       telescope = true,
-    --     },
-    --   })
-    -- end,
-    --
-    -- "bluz71/vim-nightfly-colors",
-    -- name = "nightfly",
-    -- lazy = false,
-    -- priority = 1000,
-    -- config = function()
-    --   local g = vim.g
-    --   g.nightflyTransparent = true
-    -- end,
-    --
-    -- "olimorris/onedarkpro.nvim",
-    -- lazy = false,
-    -- priority = 1000, -- Ensure it loads first
-    -- config = function()
-    --   require("onedarkpro").setup({
-    --     options = {
-    --       cursorline = true, -- Use cursorline highlighting?
-    --       transparency = true, -- Use a transparent background?
-    --       terminal_colors = true, -- Use the theme's colors for Neovim's :terminal?
-    --       lualine_transparency = true, -- Center bar transparency?
-    --       highlight_inactive_windows = true, -- When the window is out of focus, change the normal background?
-    --     },
-    --   })
-    --   vim.cmd("colorscheme ondark vivid")
-    -- end,
-    --
-    -- "shawilly/ponokai",
-    -- lazy = false,
-    -- priority = 1000,
-    -- config = function()
-    --   vim.g.sonokai_enable_italic = false
-    --   vim.g.ponokai_transparent_background = 2
-    --   vim.g.ponokai_style = "kitty"
-    --   vim.cmd.colorscheme("ponokai")
-    -- end,
-    --
-    --
-    -- "Everblush/nvim",
-    -- name = "everblush",
-    -- lazy = false,
-    -- priority = 1000,
-    -- config = function()
-    --   require("everblush").setup({
-    --     transparent_background = true,
-    --     nvim_tree = {
-    --       contrast = true,
-    --     },
-    --   })
-    -- end,
+    --"yorumicolors/yorumi.nvim",
+    --lazy = false,
+    --priority = 1000,
     --
     "folke/tokyonight.nvim",
     lazy = false,
     priority = 1000,
     opts = {
-      style = "moon",
       transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+        comments = { italic = true },
+        keywords = { italic = true },
+      },
     },
     --
-    --"yorumicolors/yorumi.nvim",
-    --lazy = false,
-    --priority = 1000,
-    --
-    -- "nobbmaestro/nvim-andromeda",
-    -- dependencies = {
-    --   "tjdevries/colorbuddy.nvim",
-    --   branch = "dev",
+    -- {
+    --   "cdmill/neomodern.nvim",
+    --   lazy = false,
+    --   priority = 1000,
+    --   config = function()
+    --     require("neomodern").setup({
+    --       style = "roseprime",
+    --       transparent = true,
+    --     })
+    --     require("neomodern").load()
+    --   end,
     -- },
-    -- config = function()
-    --   require("andromeda").setup({
-    --     preset = "andromeda",
-    --     transparent_bg = true,
-    --   })
-    -- end,
-    --
   },
 }

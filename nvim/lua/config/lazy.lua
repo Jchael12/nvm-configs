@@ -22,21 +22,12 @@ require("lazy").setup({
       import = "lazyvim.plugins",
       opts = {
         colorscheme = "tokyonight",
-        news = {
-          lazyvim = true,
-          neovim = true,
-        },
+        news = { lazyvim = true, neovim = true },
       },
     },
     -- import/override with your plugins
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
-    { import = "lazyvim.plugins.extras.lang.typescript" },
-    { import = "lazyvim.plugins.extras.lang.tailwind" },
-    { import = "lazyvim.plugins.extras.lang.json" },
-    { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
-    -- { import = "lazyvim.plugins.extras.dap.core" },
-    --
     { import = "plugins" },
   },
   defaults = {
@@ -59,8 +50,7 @@ require("lazy").setup({
         "gzip",
         -- "matchit",
         -- "matchparen",
-        "rplugin",
-        "netrwPlugin",
+        -- "netrwPlugin",
         "tarPlugin",
         "tohtml",
         "tutor",

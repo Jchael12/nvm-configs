@@ -4,9 +4,6 @@
 
 vim.g.mapleader = " "
 
--- local discipline = require("jchael.core.discipline")
--- discipline.cowboy()
-
 local util = require("lazyvim.util")
 local keymap = vim.keymap -- for conciseness
 local key = keymap.set
@@ -65,14 +62,3 @@ end, { desc = "toggle terminal with border" })
 key("n", "<leader>t", "<cmd>Twilight<cr>", { desc = "Enable Twilight" })
 
 key("n", "<leader>z", "<cmd>ZenMode<cr>", { desc = "Enable Zen Mode" })
-
--- floating terminal
--- local lazyterm = function()
---   util.terminal(nil, { cwd = util.root() })
--- end
--- key("n", "<leader>ft", lazyterm, { desc = "Terminal (root dir)" })
--- key("n", "<leader>fT", function()
---   util.terminal()
--- end, { desc = "Terminal (cwd)" })
--- key("n", "<c-/>", lazyterm, { desc = "Terminal (root dir)" })
--- key("n", "<c-_>", lazyterm, { desc = "which_key_ignore" })

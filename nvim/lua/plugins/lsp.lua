@@ -1,5 +1,5 @@
 return {
-  --HACK: mason tools
+  -- tools
   {
     "williamboman/mason.nvim",
     opts = function(_, opts)
@@ -12,13 +12,11 @@ return {
         "tailwindcss-language-server",
         "typescript-language-server",
         "css-lsp",
-        "java-debug-adapter",
-        "java-test",
       })
     end,
   },
 
-  --HACK: lsp servers
+  -- lsp servers
   {
     "neovim/nvim-lspconfig",
     opts = {
@@ -26,7 +24,6 @@ return {
       ---@type lspconfig.options
       servers = {
         cssls = {},
-        jdtls = {},
         tailwindcss = {
           root_dir = function(...)
             return require("lspconfig.util").root_pattern(".git")(...)
@@ -62,6 +59,7 @@ return {
             },
           },
         },
+        csharp_ls = {},
         html = {},
         yamlls = {
           settings = {
@@ -136,11 +134,7 @@ return {
           },
         },
       },
-      setup = {
-        jdtls = function()
-          return true
-        end,
-      },
+      setup = {},
     },
   },
   {

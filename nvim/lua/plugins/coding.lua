@@ -1,5 +1,5 @@
 return {
-  -- cmp emoji
+  -- Cmp
   {
     "nvim-cmp",
     dependencies = { "hrsh7th/cmp-emoji" },
@@ -7,30 +7,15 @@ return {
       table.insert(opts.sources, { name = "emoji" })
     end,
   },
-  -- Incremental rename
+  -- Nvim Snippets
   {
-    "smjonas/inc-rename.nvim",
-    cmd = "IncRename",
-    config = true,
-  },
-  -- Refactoring tool
-  {
-    "ThePrimeagen/refactoring.nvim",
-    keys = {
-      {
-        "<leader>r",
-        function()
-          require("refactoring").select_refactor()
-        end,
-        mode = "v",
-        noremap = true,
-        silent = true,
-        expr = false,
-      },
+    "garymjr/nvim-snippets",
+    opts = {
+      friendly_snippets = true,
     },
-    opts = {},
+    dependencies = { "rafamadriz/friendly-snippets" },
   },
-  -- Go forward/backward with square brackets
+  -- Mini Bracketed: Go forward/backward with square brackets
   {
     "echasnovski/mini.bracketed",
     event = "BufReadPost",
@@ -44,5 +29,13 @@ return {
         treesitter = { suffix = "n" },
       })
     end,
+  },
+  {
+    "zeioth/garbage-day.nvim",
+    dependencies = "neovim/nvim-lspconfig",
+    event = "VeryLazy",
+    opts = {
+      -- your options here
+    },
   },
 }
